@@ -33,8 +33,10 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
-           <DrawerTitle>100 Users <Link href="https://advnote.vercel.app"><span className="text-blue-600 underline">@ADVNote</span></Link>  complete 🎉</DrawerTitle>
-           <DrawerTitle>Only 27 publishes/shares 🥲</DrawerTitle>
+           <DrawerTitle>100 Users <Link href="https://advnote.vercel.app"><span className="text-blue-600 underline">@ADVNote</span></Link>  completed, 6.1.24</DrawerTitle>
+           <DrawerTitle>172 notes created</DrawerTitle>
+           <DrawerTitle>19, max sign-ups in one day</DrawerTitle>
+           <DrawerTitle>51, max logins in one day</DrawerTitle>
            
               <br/>
               <DrawerTitle>Well, how are you?</DrawerTitle>
