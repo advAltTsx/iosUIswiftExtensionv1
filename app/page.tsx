@@ -46,7 +46,7 @@ export default function Home() {
 <br/>
               <DrawerTitle>{"acha thik h"}</DrawerTitle>
             <DrawerDescription>as decided, cs/ip pbds-2 k din cls m aunga bulane, recess syd</DrawerDescription>
-              <DrawerDescription>{"AI model train krha hu, islye ICSE-irl-student-partner bnana h, aur haan, mera or apka baat kisi aur ko nhi bataiyega"}</DrawerDescription>
+              <DrawerDescription>{"AI model train krha hu, islye ICSE-irl-student-partner bnana h, aur haan, mera or apka baat kisi aur ko nhi btaiyga"}</DrawerDescription>
               
             </div>
           </DrawerHeader>
