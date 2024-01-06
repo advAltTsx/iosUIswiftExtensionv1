@@ -33,12 +33,7 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
-           <DrawerTitle>100 Users <Link href="https://advnote.vercel.app"><span className="text-blue-600 underline">@ADVNote</span></Link>  completed</DrawerTitle>
-           <DrawerTitle372 notes created</DrawerTitle>
-           <DrawerTitle>19, max sign-ups in a day</DrawerTitle>
-           <DrawerTitle>51, max logins in a day</DrawerTitle>
            
-              <br/>
               <DrawerTitle>Well, how are you?</DrawerTitle>
              <DrawerDescription>Couple of things to say</DrawerDescription>
             <DrawerDescription>{"This time, I'd be totally serious *inaudible laughing noises and whisperings*."}</DrawerDescription>
@@ -51,6 +46,38 @@ export default function Home() {
             <DrawerDescription>*inhales*</DrawerDescription>
               <DrawerDescription>{"tbh, even idk but maybe creating virtual AI"}</DrawerDescription>
               
+            </div>
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
+
+
+      <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+      ADVNote?
+    </h1></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto">
+          <DrawerHeader >
+            <div className='h-auto w-full flex items-center justify-start'>
+            <DrawerClose asChild>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
+            </DrawerClose>
+            </div>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+           <DrawerTitle>100 Users <Link href="https://advnote.vercel.app"><span className="text-blue-600 underline">@ADVNote</span></Link>  completed</DrawerTitle>
+           <DrawerTitle372 notes created</DrawerTitle>
+           <DrawerTitle>19, max sign-ups in a day</DrawerTitle>
+           <DrawerTitle>51, max logins in a day</DrawerTitle>
+           
+            
             </div>
           </DrawerHeader>
           
