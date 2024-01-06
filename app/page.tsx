@@ -39,7 +39,7 @@ export default function Home() {
             <DrawerTitle>{"We gotta talk IRL, but I fear talking to non-boys."}</DrawerTitle>
             <DrawerDescription>Ever saw me talking to any non-boy in real life? I cannot talk but there is something to say. You could make some favourable conditions though~ do not be in a non-boy group, I fear them even worse. And, be in my field of view, I generally do not look behind.</DrawerDescription>
               <DrawerDescription>{"I know what you're thinking, 'humse baat karega?', 'ek jhappad maarenge sidha bounce-back karte huye dharti ke andar chala jayega', ek min, kya? 🤯"}</DrawerDescription>
-<DrawerDescription>So there is that, and </DrawerDescription>
+
             </div>
           </DrawerHeader>
           
