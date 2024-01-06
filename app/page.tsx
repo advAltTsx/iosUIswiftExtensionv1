@@ -50,7 +50,7 @@ export default function Home() {
       </DrawerContent>
     </Drawer>
     </main>
-    <div className="flex items-center justify-center text-center p-6">{"<h2 className='${style}'>$views: 489.000 ($Atlassian_Advertisement_Rounded_Provided)</h2>"}</div>
+    <div className="flex items-center justify-center text-center p-6">{"Views: 488K+"}</div>
     </>
       )
 }
