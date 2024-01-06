@@ -31,7 +31,7 @@ export default function Home() {
               <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
             </DrawerClose>
             </div>
-            <div className='flex flex-col items-center justify-center text-center h-full my-10'>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
            <DrawerTitle>100 Users @ADVNote complete 🎉</DrawerTitle>
            <DrawerTitle>Only 27 publishes/shares 🥲</DrawerTitle>
            
