@@ -24,7 +24,7 @@ export default function Home() {
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
-        <div className="min-h-[70vh] h-auto py-16">
+        <div className="min-h-[70vh] h-auto">
           <DrawerHeader >
             <div className='h-auto w-full flex items-center justify-start'>
             <DrawerClose asChild>
