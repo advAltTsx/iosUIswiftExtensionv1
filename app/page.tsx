@@ -19,7 +19,7 @@ export default function Home() {
       <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      SA-B?
+      Celebrating
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
@@ -31,14 +31,11 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
-            <DrawerTitle>Still here</DrawerTitle>
-            <DrawerDescription>How are you?</DrawerDescription>
+            <DrawerTitle>50 followers</DrawerTitle>
+            <DrawerDescription>pf my lovely sister</DrawerDescription>
             <br />
-            <blockquote className="mt-6">{"Tbh, I fear talking to non-boys."}</blockquote>
-            <blockquote className="mb-6">{"Also, I need your help."}</blockquote>
-            <br />
-            <DrawerTitle>{"I hope you understand"}</DrawerTitle>
-            <DrawerDescription>{"Let's meet IRL"}</DrawerDescription>
+            <DrawerTitle>{"I hope your"}</DrawerTitle>
+            <DrawerDescription>{"all of your wishes, dreams and goals come true"}</DrawerDescription>
 
             </div>
           </DrawerHeader>
