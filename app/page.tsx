@@ -31,7 +31,7 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
-            <DrawerTitle>50 followers</DrawerTitle>
+            <DrawerTitle>50 followers  (countdown starts)</DrawerTitle>
             <DrawerDescription>of my lovely sister</DrawerDescription>
             <br />
             <DrawerTitle>{"I hope your"}</DrawerTitle>
