@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
+    <>
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
@@ -49,5 +50,7 @@ export default function Home() {
     </Drawer>
     </main>
     <div className="flex items-center justify-center text-center p-6">views: 489.000</div>
-  )
+    </>
+      )
 }
+    
