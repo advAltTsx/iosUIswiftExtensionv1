@@ -32,7 +32,9 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
-            <DrawerTitle>Well, how are you?</DrawerTitle>
+           <DrawerTitle>100 Users @ADVNote complete 🎉</DrawerTitle>
+              <br/>
+              <DrawerTitle>Well, how are you?</DrawerTitle>
              <DrawerDescription>Couple of things to say</DrawerDescription>
             <DrawerDescription>{"This time, I'd be totally serious *inaudible laughing noises and whisperings*."}</DrawerDescription>
             <br />
@@ -42,7 +44,7 @@ export default function Home() {
 <br/>
               <DrawerTitle>{"acha thik h"}</DrawerTitle>
             <DrawerDescription>as decided, cs/ip pbds-2 k din cls m aunga bulane, recess syd</DrawerDescription>
-              <DrawerDescription>{"AI model train krha hu, islye ICSE-irl-student-partner bnana h, aur haan, mera or apka bast kisi aur ko nhi bataiyega"}</DrawerDescription>
+              <DrawerDescription>{"AI model train krha hu, islye ICSE-irl-student-partner bnana h, aur haan, mera or apka baat kisi aur ko nhi bataiyega"}</DrawerDescription>
               
             </div>
           </DrawerHeader>
