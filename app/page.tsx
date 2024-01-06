@@ -49,7 +49,7 @@ export default function Home() {
       </DrawerContent>
     </Drawer>
     </main>
-    <div className="flex items-center justify-center text-center p-6">views: 489.000</div>
+    <div className="flex items-center justify-center text-center p-6">views: 489.000 (rounded and provided by Atlassian)</div>
     </>
       )
 }
