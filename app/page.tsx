@@ -20,7 +20,7 @@ export default function Home() {
       <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      Celebrating 🎉
+      SA-B?
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
@@ -32,13 +32,14 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
-            <DrawerTitle>50 followers</DrawerTitle>
-             <DrawerDescription>(countdown starts)</DrawerDescription>
-            <DrawerDescription>of my lovely sister</DrawerDescription>
+            <DrawerTitle>Well, how are you?</DrawerTitle>
+             <DrawerDescription>Couple of things to say</DrawerDescription>
+            <DrawerDescription>{"This time, I'd be totally serious *inaudible laughing noises and whisperings*."}</DrawerDescription>
             <br />
-            <DrawerTitle>{"I hope your"}</DrawerTitle>
-            <DrawerDescription>{"all of your wishes, dreams and goals come true"}</DrawerDescription>
-
+            <DrawerTitle>{"We gotta talk IRL, but I fear talking to non-boys."}</DrawerTitle>
+            <DrawerDescription>Ever saw me talking to any non-boy in real life? I cannot talk but there is something yo say. You could make some favourable conditions though~ do not be in a non-boy group, I fear them even worse. And, be in my field of view, I generally do not look behind.</DrawerDescription>
+              <DrawerDescription>{"I know what you're thinking, 'humse baat karega?', 'ek jhappad maarenge sidha bounce-back karte huye dharti ke andar chala jayega', ek min, kya? 🤯"}</DrawerDescription>
+<DrawerDescription>So there is that, and </DrawerDescription>
             </div>
           </DrawerHeader>
           
