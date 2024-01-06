@@ -36,7 +36,7 @@ export default function Home() {
              <DrawerDescription>Couple of things to say</DrawerDescription>
             <DrawerDescription>{"This time, I'd be totally serious *inaudible laughing noises and whisperings*."}</DrawerDescription>
             <br />
-            <DrawerTitle>{"We gotta talk IRL, but I fear talking to..."}</DrawerTitle>
+            <DrawerTitle>{"We gotta talk IRL, but I fear"}</DrawerTitle>
             <DrawerDescription>Ever saw me talking to any non-boy in real life? I cannot talk but there is something to say. </DrawerDescription>
               <DrawerDescription>{"I know what you're thinking, 'humse baat karega?', 'ek jhappad maarenge sidha bounce-back karte huye dharti ke andar chala jayega', ek min, kya? 🤯"}</DrawerDescription>
 
