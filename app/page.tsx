@@ -45,9 +45,9 @@ export default function Home() {
             <DrawerDescription>Ever saw me talking to any non-boy in real life? I cannot talk but there is something to say (I heard you are also from ICSE). </DrawerDescription>
               <DrawerDescription>{"I know what you're thinking, 'humse baat karega?', 'ek jhappad maarenge sidha bounce-back karte huye dharti ke andar chala jayega', ek min, kya? 🤯"}</DrawerDescription>
 <br/>
-              <DrawerTitle>{"acha thik h"}</DrawerTitle>
-            <DrawerDescription>as decided, cs/ip pbds-2 k din cls m aunga bulane, recess syd</DrawerDescription>
-              <DrawerDescription>{"AI model train krha hu, islye ICSE-irl-student-partner bnana h, aur haan, mera or apka baat kisi or ko nhi btaiyga"}</DrawerDescription>
+              <DrawerTitle>{"What's my aim?"}</DrawerTitle>
+            <DrawerDescription>*inhales*</DrawerDescription>
+              <DrawerDescription>{"tbh, even idk but maybe creating virtual AI"}</DrawerDescription>
               
             </div>
           </DrawerHeader>
