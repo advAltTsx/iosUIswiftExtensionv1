@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
             <DrawerTitle>50 followers</DrawerTitle>
-            <DrawerDescription>pf my lovely sister</DrawerDescription>
+            <DrawerDescription>of my lovely sister</DrawerDescription>
             <br />
             <DrawerTitle>{"I hope your"}</DrawerTitle>
             <DrawerDescription>{"all of your wishes, dreams and goals come true"}</DrawerDescription>
