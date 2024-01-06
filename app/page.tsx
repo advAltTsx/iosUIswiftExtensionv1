@@ -33,6 +33,8 @@ export default function Home() {
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
            <DrawerTitle>100 Users @ADVNote complete 🎉</DrawerTitle>
+           <DrawerTitle>Only 17 publishes/shares 🥲</DrawerTitle>
+           
               <br/>
               <DrawerTitle>Well, how are you?</DrawerTitle>
              <DrawerDescription>Couple of things to say</DrawerDescription>
