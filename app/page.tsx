@@ -27,7 +27,7 @@ export default function Home() {
           <DrawerHeader >
             <div className='h-auto w-full flex items-center justify-start'>
             <DrawerClose asChild>
-              <Button variant="ghost"><h1 className=' text-blue-600'>Cancel</h1></Button>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
             </DrawerClose>
             </div>
             <div className='flex flex-col items-center justify-center text-center h-full my-10'>
