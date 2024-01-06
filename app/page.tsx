@@ -19,7 +19,7 @@ export default function Home() {
       <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      Celebrating
+      Celebrating 🎉
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
