@@ -34,10 +34,10 @@ export default function Home() {
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
            
-              <DrawerTitle>Gathering up, the confidence to talk to you</DrawerTitle>
+              <DrawerTitle>I often get mocked, telling I dont have enough followers</DrawerTitle>
              <br/>
-              <DrawerDescription>If I do some wierd activities while talking pls bear it</DrawerDescription>
-            <DrawerDescription>{"Ik I'm gonna be hella awkward"}</DrawerDescription>
+              <DrawerDescription>first off, my discord friends hate instagram, they gon rather build one someday</DrawerDescription>
+            <DrawerDescription>{"second up, I ask you talk to non-boys? Basically everyone that asks says 'yes', I reply then you're not even close, anyways you droppin into my followers list?"}</DrawerDescription>
             <br />
           
             </div>
