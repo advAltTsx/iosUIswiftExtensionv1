@@ -36,7 +36,7 @@ export default function Home() {
            
               <DrawerTitle>I often get mocked, telling I dont have enough followers</DrawerTitle>
              <br/>
-              <DrawerDescription>first off, my discord friends hate instagram, they gon rather build one someday</DrawerDescription>
+              <DrawerDescription>first off, my discord friends hate instagram, actually we are on another platform made by us</DrawerDescription>
             <DrawerDescription>{"second up, I ask you talk to non-boys? Basically everyone that asks says 'yes', I reply then you're not even close, anyways you droppin into my followers list?"}</DrawerDescription>
             <br />
           
