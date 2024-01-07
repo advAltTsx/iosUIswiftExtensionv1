@@ -40,6 +40,7 @@ export default function Home() {
             <DrawerDescription>{"second up, I ask to the mockers you talk to non-boys? Basically everyone that been asked said 'yes', further I reply you're not even close, anyways SA-B droppin into my followers list?"}</DrawerDescription>
             <br />
           <DrawerDescription>Also, hows this ios-ui lookin?</DrawerDescription>
+          <DrawerDescription>Azure Blue, developer @Pagani rated 8/10</DrawerDescription>
             </div>
           </DrawerHeader>
           
