@@ -35,7 +35,8 @@ export default function Home() {
             <div className='flex flex-col justify-center text-center h-full my-10'>
            
               <DrawerTitle>Gathering up, the confidence to talk to you</DrawerTitle>
-             <DrawerDescription>If I do some wierd activities while talking pls bear it</DrawerDescription>
+             <br/>
+              <DrawerDescription>If I do some wierd activities while talking pls bear it</DrawerDescription>
             <DrawerDescription>{"Ik I'm gonna be hella awkward"}</DrawerDescription>
             <br />
           
