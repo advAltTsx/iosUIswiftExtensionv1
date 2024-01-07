@@ -34,18 +34,11 @@ export default function Home() {
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
            
-              <DrawerTitle>Well, how are you?</DrawerTitle>
-             <DrawerDescription>Couple of things to say</DrawerDescription>
-            <DrawerDescription>{"This time, I'd be totally serious *inaudible laughing noises and whisperings*."}</DrawerDescription>
+              <DrawerTitle>Gathering up, the confidence to talk to you</DrawerTitle>
+             <DrawerDescription>If I do some wierd activities while talking pls bear it</DrawerDescription>
+            <DrawerDescription>{"Ik I'm gonna be hella awkward"}</DrawerDescription>
             <br />
-            <DrawerTitle>{"We gotta talk IRL, but I fear"}</DrawerTitle>
-            <DrawerDescription>Ever saw me talking to any non-boy in real life? I cannot talk but there is something to say (I heard you are also from ICSE). </DrawerDescription>
-              <DrawerDescription>{"I know what you're thinking, 'humse baat karega?', 'ek jhappad maarenge sidha bounce-back karte huye dharti ke andar chala jayega', ek min, kya? 🤯"}</DrawerDescription>
-<br/>
-              <DrawerTitle>{"What's my aim?"}</DrawerTitle>
-            <DrawerDescription>*inhales*</DrawerDescription>
-              <DrawerDescription>{"tbh, even idk but maybe creating virtual AI"}</DrawerDescription>
-              
+          
             </div>
           </DrawerHeader>
           
@@ -57,36 +50,7 @@ export default function Home() {
     </Drawer>
 
 
-      <Drawer shouldScaleBackground>
-      <DrawerTrigger asChild>
-        <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      ADVNote?
-    </h1></Button>
-      </DrawerTrigger>
-      <DrawerContent>
-        <div className="min-h-[70vh] h-auto">
-          <DrawerHeader >
-            <div className='h-auto w-full flex items-center justify-start'>
-            <DrawerClose asChild>
-              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
-            </DrawerClose>
-            </div>
-            <div className='flex flex-col justify-center text-center h-full my-10'>
-           <DrawerTitle>100 Users <Link href="https://advnote.vercel.app"><span className="text-blue-600 underline">@ADVNote</span></Link>  completed</DrawerTitle>
-           <DrawerTitle> </DrawerTitle>372 notes created</DrawerTitle>
-           <DrawerTitle>19, max sign-ups in a day</DrawerTitle>
-           <DrawerTitle>51, max logins in a day</DrawerTitle>
-           
-            
-            </div>
-          </DrawerHeader>
-          
-          <DrawerFooter>
-            
-          </DrawerFooter>
-        </div>
-      </DrawerContent>
-    </Drawer>
+      
     </main>
     <div className="flex items-center justify-center text-center p-6">{"Views: 491K+"}</div>
     </>
