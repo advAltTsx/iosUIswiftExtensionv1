@@ -35,7 +35,42 @@ export default function Home() {
     >
       <CarouselContent className="-mt-1 h-[50vh]">
           
-        
+        <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+      Sugar?
+    </h1></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto px-6">
+          <DrawerHeader >
+            <div className='h-auto w-full flex items-center justify-start'>
+            <DrawerClose asChild>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
+            </DrawerClose>
+            </div>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+           <DrawerDescription>9/1/24</DrawerDescription>
+              <br/>
+              <DrawerTitle>I realised I fought in the middle of the exams</DrawerTitle>
+             <br/>
+              <DrawerDescription>Forgive me.</DrawerDescription>
+         <br/>
+              <DrawerDescription>All the best.</DrawerDescription>
+     <br/>
+                
+            </div>
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
+
+          </CarouselItem>
         
         
         
@@ -61,7 +96,8 @@ export default function Home() {
              <br/>
               <DrawerDescription>Your smile is something precious, the way you smiled that day even I could not resist smiling back</DrawerDescription>
             <DrawerDescription>{"You look so cute, just like"} <Link href={'https://w0.peakpx.com/wallpaper/26/103/HD-wallpaper-monkey-selfie-face-thumbnail.jpg'}> <span className='underline text-blue-600 font-medium'>this</span></Link> 💀</DrawerDescription>
-            <br />
+         <DrawerDescription>All the best.</DrawerDescription>
+              <br />
           </div>
           </DrawerHeader>
           
