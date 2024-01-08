@@ -92,7 +92,7 @@ export default function Home() {
          <br/>
               <DrawerDescription>Also, the new feature @advwastaken.vercel.app, {"don't"} use arrows like a kid, scroll right away like an insta reel, yt short instead. It took time to build with framer motion, gotta flex 💪</DrawerDescription>
      <br/>
-              <DrawerDescription>I know ROG Phone > iPhones, but I like iOS UI.</DrawerDescription>
+              <DrawerDescription>I know ROG Phone is far better, but still, I like iOS UI.</DrawerDescription>
      
             </div>
           </DrawerHeader>
