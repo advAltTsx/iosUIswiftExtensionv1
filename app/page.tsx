@@ -12,13 +12,30 @@ import {
 } from "@/components/ui/drawer"
 import { Button } from "@/components/ui/button"
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
 
 
 export default function Home() {
   return (
     <>
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <Drawer shouldScaleBackground>
+    <Carousel
+      opts={{
+        align: "start",
+      }}
+      orientation="vertical"
+      className="w-full max-w-xs"
+    >
+      <CarouselContent className="-mt-1 h-[50vh]">
+          <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       SA-B?
@@ -51,6 +68,14 @@ export default function Home() {
       </DrawerContent>
     </Drawer>
 
+          </CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+      
+      
+      
 
       
     </main>
