@@ -51,13 +51,46 @@ export default function Home() {
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
            
-              <DrawerTitle>I often get mocked, telling I dont have enough followers</DrawerTitle>
+              <DrawerTitle>You should smile</DrawerTitle>
              <br/>
-              <DrawerDescription>first off, my discord friends hate instagram, actually we are on another platform made by us (dont worry ill call ya)</DrawerDescription>
-            <DrawerDescription>{"second up, I ask to the mockers you talk to non-boys? Basically everyone that been asked said 'yes', further I reply you're not even close, anyways SA-B droppin into my followers list?"}</DrawerDescription>
+              <DrawerDescription>Your smile is something precious, the way you smiled that day even I could not resist smiling back</DrawerDescription>
+            <DrawerDescription>{"You look so cute, just like"} <Link href={'https://w0.peakpx.com/wallpaper/26/103/HD-wallpaper-monkey-selfie-face-thumbnail.jpg'}> <span className='underline text-blue-600 font-medium'>this</span></Link> 💀</DrawerDescription>
             <br />
-          <DrawerDescription>Also, hows this ios-ui lookin?</DrawerDescription>
-          <DrawerDescription>Azure Blue, developer @Pagani rated 8/10, also commented, this transition smoother than our life yo</DrawerDescription>
+          </div>
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
+
+          </CarouselItem>
+
+
+          <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+      ADVNote
+    </h1></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto">
+          <DrawerHeader >
+            <div className='h-auto w-full flex items-center justify-start'>
+            <DrawerClose asChild>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
+            </DrawerClose>
+            </div>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+           
+              <DrawerTitle>You know there are way too many dummies and stalkers than actual users.</DrawerTitle>
+             <br/>
+              <DrawerDescription>Its Clerk bud. Their privacy policy. Not mine.</DrawerDescription>
+            <DrawerDescription>{"anyways, thanks for being my friend SA-B, here's a gift"}</DrawerDescription>
+          <DrawerDescription><Link href={'https://advnote.vercel.app'}> <span className='underline text-blue-600 font-medium'>See the Copyright Members</span></Link></DrawerDescription>
             </div>
           </DrawerHeader>
           
@@ -79,7 +112,6 @@ export default function Home() {
 
       
     </main>
-    <div className="flex items-center justify-center text-center p-6">{"Views: 491K+"}</div>
     </>
       )
 }
