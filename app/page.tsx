@@ -42,7 +42,7 @@ export default function Home() {
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
-        <div className="min-h-[70vh] h-auto">
+        <div className="min-h-[70vh] h-auto px-6">
           <DrawerHeader >
             <div className='h-auto w-full flex items-center justify-start'>
             <DrawerClose asChild>
@@ -77,7 +77,7 @@ export default function Home() {
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
-        <div className="min-h-[70vh] h-auto">
+        <div className="min-h-[70vh] h-auto px-6">
           <DrawerHeader >
             <div className='h-auto w-full flex items-center justify-start'>
             <DrawerClose asChild>
