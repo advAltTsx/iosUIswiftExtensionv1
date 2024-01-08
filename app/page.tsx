@@ -54,7 +54,7 @@ export default function Home() {
               <br/>
               <DrawerTitle>I also have to make new friends like you</DrawerTitle>
              <br/>
-              <DrawerDescription>The way these years passed, you are not being my friend neither let me make new friends. Whenever I try talking to someone you just go acting different.</DrawerDescription>
+              <DrawerDescription>The way these years passed, you are not being my friend neither letting me make new friends. Whenever I try talking to someone you just go acting different.</DrawerDescription>
             <DrawerDescription>{"I'm not angry on you, even a bit. But still, stay safe and be healthy. Don't overthink about me. Only got the permission to 'talk' nothing else. I have no experience talking IRL to a <> so I may do suspicious activities but in reality, its a mistake. All the best."} </DrawerDescription>
             <br />
           </div>
