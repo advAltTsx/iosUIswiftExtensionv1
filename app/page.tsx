@@ -38,6 +38,43 @@ export default function Home() {
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+      My loveliest sister?
+    </h1></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto px-6">
+          <DrawerHeader >
+            <div className='h-auto w-full flex items-center justify-start'>
+            <DrawerClose asChild>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
+            </DrawerClose>
+            </div>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+           <DrawerDescription>8/1/24</DrawerDescription>
+              <br/>
+              <DrawerTitle>I also have to make new friends like you</DrawerTitle>
+             <br/>
+              <DrawerDescription>The way these years passed, you are not being my friend neither let me make new friends. Whenever I try talking to someone you just go acting different.</DrawerDescription>
+            <DrawerDescription>{"I'm not angry on you, even a bit. But still, stay safe and be healthy. Don't overthink about me. Only got the permission to 'talk' nothing else. I have no experience talking IRL to a <> so I may do suspicious activities but in reality, its a mistake. All the best."} </DrawerDescription>
+            <br />
+          </div>
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
+            </CarouselItem>
+        
+        
+        
+        
+        <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       SA-B?
     </h1></Button>
       </DrawerTrigger>
@@ -50,7 +87,8 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
-           
+           <DrawerDescription>8/1/24</DrawerDescription>
+              <br/>
               <DrawerTitle>You should smile</DrawerTitle>
              <br/>
               <DrawerDescription>Your smile is something precious, the way you smiled that day even I could not resist smiling back</DrawerDescription>
@@ -85,7 +123,8 @@ export default function Home() {
             </DrawerClose>
             </div>
             <div className='flex flex-col justify-center text-center h-full my-10'>
-           
+           <DrawerDescription>8/1/24</DrawerDescription>
+              <br/>
               <DrawerTitle>You know there are way too many dummies and stalkers than actual users.</DrawerTitle>
              <br/>
               <DrawerDescription>Its Clerk bud. Their privacy policy. Not mine.</DrawerDescription>
