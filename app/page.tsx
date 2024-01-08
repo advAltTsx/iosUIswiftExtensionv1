@@ -89,7 +89,9 @@ export default function Home() {
               <DrawerTitle>You know there are way too many dummies and stalkers than actual users.</DrawerTitle>
              <br/>
               <DrawerDescription>Its Clerk bud. Their privacy policy. Not mine.</DrawerDescription>
-             </div>
+         <br/>
+              <DrawerDescription>Also, the new feature, {"don't"} use arrows like a kid, scroll right away like a reel, short instead. It took time to build with fluid transitions, gotta flex 💪</DrawerDescription>
+            </div>
           </DrawerHeader>
           
           <DrawerFooter>
