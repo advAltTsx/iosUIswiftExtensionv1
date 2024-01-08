@@ -89,9 +89,7 @@ export default function Home() {
               <DrawerTitle>You know there are way too many dummies and stalkers than actual users.</DrawerTitle>
              <br/>
               <DrawerDescription>Its Clerk bud. Their privacy policy. Not mine.</DrawerDescription>
-            <DrawerDescription>{"anyways, thanks for being my friend SA-B, here's a gift"}</DrawerDescription>
-          <DrawerDescription><Link href={'https://advnote.vercel.app'}> <span className='underline text-blue-600 font-medium'>See the Copyright Members</span></Link></DrawerDescription>
-            </div>
+             </div>
           </DrawerHeader>
           
           <DrawerFooter>
