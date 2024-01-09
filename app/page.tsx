@@ -36,56 +36,14 @@ export default function Home() {
       <CarouselContent className="-mt-1 h-[50vh]">
 
 
-        <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
-            <Drawer shouldScaleBackground>
-      <DrawerTrigger asChild>
-        <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      Sugar?
-    </h1> <div className=' bg-green-400 border border-green-600 py-2 px-4 rounded-2xl h-auto text-green-950'>Updated</div></div></Button>
-      </DrawerTrigger>
-      <DrawerContent>
-        <div className="min-h-[70vh] h-auto">
-          <DrawerHeader >
-            <div className='h-auto w-full flex items-center justify-start'>
-            <DrawerClose asChild>
-              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
-            </DrawerClose>
-            </div>
-            <div className='flex flex-col justify-center text-center h-full my-10'>
-            <DrawerDescription>9/1/24</DrawerDescription>
-              <br/>
-              <DrawerTitle>Do you even know?</DrawerTitle>
-             <br/>
-              <DrawerDescription>The day we met, that same instance our time of getting out of reach was also decided.</DrawerDescription>
-            <DrawerDescription>You know how it feels to get ignored? get blocked directly? no replies? always guess out the situations? see the favourite person with your enemies? see the favourite person being more happier than ever without you? just acting infront of you to gain attention? talking with others and showing attitude only towards you? building friendship with people you do not know about, knowing they could message and talk directly to your favourite person without you even know about it? </DrawerDescription>
-            <br />
-            <DrawerDescription>I know if it was someone else than you I would have made them my rival, no matter what. But for you, I forgive you, no matter what.</DrawerDescription>
-              <br/>
-    
-              <DrawerDescription>Being honest, you think me as a teddy bear that you can squeeze, kick or hug anytime you want. Cuz you know that teddy bear {"ain't"} making new friends of your category. But, you never saw the teddy bear was getting torn-up from the back. And the day you actually see it, you would be realising you would never see me again because I went somewhere far away.</DrawerDescription>
-         <br/>
-              <DrawerDescription>I know it is completely normal for you all to talk to opposite people. And you are no different. And if you think it as muy weakness. I would rather say it is a blessing from my parents rather than some crazy restrictions. Among all, thousands of Instagram accounts of students, I was opted. I know it is not my weakness afterall, I know I could make friends, like SA-B (cutest of all and the person who radiates my own vibes) and SA-A (serious, but funny as well).</DrawerDescription>
-            
-      </div>
-          </DrawerHeader>
-          
-          <DrawerFooter>
-            
-          </DrawerFooter>
-        </div>
-      </DrawerContent>
-    </Drawer>
-
-          </CarouselItem>
-          
-      
+        
         
           <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       SA-B?
-    </h1> <div className=' bg-green-400 border border-green-600 py-2 px-4 rounded-2xl h-auto text-green-950'>Updated</div></div></Button>
+    </h1> <div className=' bg-pink-400 border border-pink-600 py-2 px-4 rounded-2xl h-auto text-pink-950'>Updated</div></div></Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
