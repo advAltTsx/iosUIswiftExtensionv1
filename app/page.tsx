@@ -65,13 +65,13 @@ export default function Home() {
             <br />
             <DrawerDescription>9/1/24</DrawerDescription>
               <br/>
-              <DrawerTitle>"Humko aise bolta hai? tum toh <Link href={'https://i.pngimg.me/thumb/f/720/m2i8H7H7Z5K9d3A0.jpg'}> 
-              <span className='underline text-blue-600 font-medium'>aisa</span> </Link> dikhta hai"</DrawerTitle>
+              <DrawerTitle>{'"Humko aise bolta hai?'} tum toh <Link href={'https://i.pngimg.me/thumb/f/720/m2i8H7H7Z5K9d3A0.jpg'}> 
+              <span className='underline text-blue-600 font-medium'>aisa</span> </Link>{' dikhta hai"'}</DrawerTitle>
               <br/>
               <DrawerDescription>M sirf mazak karha tha 🥲</DrawerDescription>
-              <DrawerDescription>"Vaise hum..."</DrawerDescription>
+              <DrawerDescription>{'"Vaise hum..."'}</DrawerDescription>
               <DrawerDescription> *sighs*</DrawerDescription>
-              <DrawerDescription>"... mazak nahi kiye"</DrawerDescription>
+              <DrawerDescription>{'"... mazak nahi kiye"'}</DrawerDescription>
               <DrawerDescription>🥲🥲🥲</DrawerDescription>
           </div>
           </DrawerHeader>
