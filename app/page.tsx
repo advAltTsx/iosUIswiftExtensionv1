@@ -62,7 +62,7 @@ export default function Home() {
             <DrawerDescription>I know if it was someone else than you I would have made them my rival, no matter what. But for you, I forgive you, no matter what.</DrawerDescription>
               <br/>
             <br />
-              <DrawerDescription>Being honest, you think me as a teddy bear that you can squeeze, kick or hug anytime you want. Cuz you know that teddy bear {"ain't"} making new friends of your category. But, you never saw the teddy bear was getting torn-up from the back. And the day you actually see it, you would be realising I went somewhere far away.</DrawerDescription>
+              <DrawerDescription>Being honest, you think me as a teddy bear that you can squeeze, kick or hug anytime you want. Cuz you know that teddy bear {"ain't"} making new friends of your category. But, you never saw the teddy bear was getting torn-up from the back. And the day you actually see it, you would be realising you wouls never see me again because I went somewhere far away.</DrawerDescription>
           </div>
           </DrawerHeader>
           
