@@ -59,7 +59,7 @@ export default function Home() {
               <DrawerDescription>The day we met, that same instance our time of getting out of reach was also decided.</DrawerDescription>
             <DrawerDescription>You know how it feels to get ignored? get blocked directly? no replies? always guess out the situations? see the favourite person with your enemies? see the favourite person being more happier than ever without you? just acting infront of you to gain attention? talking with others and showing attitude only towards you? building friendship with people you do not know about?</DrawerDescription>
             <br />
-            <DrawerDescription>I know if it was someone else than you I would have made them my rival, no matter what. I would hope they suffer with the same I had to come through probably by someone else. But for you, I forgive you, no matter what.</DrawerDescription>
+            <DrawerDescription>I know if it was someone else than you I would have made them my rival, no matter what. But for you, I forgive you, no matter what.</DrawerDescription>
               <br/>
             <br />
               <DrawerDescription>Just a couple of days for you to keep up with me, and one day you will be realising I went somewhere far away and you will never see me ever again.</DrawerDescription>
