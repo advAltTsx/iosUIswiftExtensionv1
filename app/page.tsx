@@ -73,7 +73,7 @@ export default function Home() {
               <DrawerDescription>{'"Vaise hum..."'}</DrawerDescription>
               <DrawerDescription> *sighs*</DrawerDescription>
               <DrawerDescription>{'"... mazak nahi kiye"'}</DrawerDescription>
-              <DrawerDescription>😨😞😔🥲😭</DrawerDescription>
+              <DrawerDescription>😨😞😔🥲😭 <span className="opacity-50">(edited)</span></DrawerDescription>
           </div>
           </DrawerHeader>
           
