@@ -63,7 +63,10 @@ export default function Home() {
               <br/>
     
               <DrawerDescription>Being honest, you think me as a teddy bear that you can squeeze, kick or hug anytime you want. Cuz you know that teddy bear {"ain't"} making new friends of your category. But, you never saw the teddy bear was getting torn-up from the back. And the day you actually see it, you would be realising you would never see me again because I went somewhere far away.</DrawerDescription>
-          </div>
+         <br/>
+              <DrawerDescription>I know it is completely normal for you all to talk to opposite people. And you are no different. And if you think it as muy weakness. I would rather say it is a blessing from my parents rather than some crazy restrictions. Among all, thousands of Instagram accounts of students, I was opted. I know it is not my weakness afterall, I know I could make friends, like SA-B (cutest of all and the person who radiates my own vibes) and SA-A (serious, but funny as well).</DrawerDescription>
+            
+      </div>
           </DrawerHeader>
           
           <DrawerFooter>
