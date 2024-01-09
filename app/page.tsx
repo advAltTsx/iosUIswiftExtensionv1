@@ -115,7 +115,7 @@ export default function Home() {
               <DrawerDescription>{'"Vaise hum..."'}</DrawerDescription>
               <DrawerDescription> *sighs*</DrawerDescription>
               <DrawerDescription>{'"... mazak nahi kiye"'}</DrawerDescription>
-              <DrawerDescription>🥲😨😞😔😭</DrawerDescription>
+              <DrawerDescription>😨😞😔🥲😭</DrawerDescription>
           </div>
           </DrawerHeader>
           
