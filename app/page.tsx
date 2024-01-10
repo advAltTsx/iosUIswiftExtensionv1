@@ -35,14 +35,50 @@ export default function Home() {
     >
       <CarouselContent className="-mt-1 h-[50vh]">
 
+    <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl bg-gradient-to-r from-primary to-danger bg-clip-text text-transparent font-extrabold tracking-tight lg:text-5xl">
+      AV-A[DAV-A]
+    </h1></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto px-6">
+          <DrawerHeader >
+            <div className='h-auto w-full flex items-center justify-start'>
+            <DrawerClose asChild>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
+            </DrawerClose>
+            </div>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+           <DrawerDescription>10/1/24</DrawerDescription>
+              <br/>
+              <DrawerTitle>Told ya, Skype or Discord, Not WA bruh 💀</DrawerTitle>
+             <br/>
+              <DrawerDescription>If seen, my {"home's"} gonna be indulged into some civil wars</DrawerDescription>
+         <br/>
+              <DrawerDescription>{"Don't ask how I got your mobile number, a Nobilian"}</DrawerDescription>
+     <br/>
+              <DrawerDescription>{"Learnt making some unresponsive, slow and glitchy webapps, don't ask, even I don't know how it works. But still, these obseletes work ;) "}</DrawerDescription>
+     
+            </div> 💀💀
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
 
+          </CarouselItem>
         
         
           <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      SA-B?
+      SA-B[DAV-S]?
     </h1> <div className=' bg-pink-400 border border-pink-600 py-2 px-4 rounded-2xl h-auto text-pink-950'>Updated</div></div></Button>
       </DrawerTrigger>
       <DrawerContent>
