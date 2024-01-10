@@ -59,7 +59,7 @@ export default function Home() {
          <br/>
               <DrawerDescription>{"Don't ask how I got your mobile number, a Nobilian"}</DrawerDescription>
      <br/>
-              <DrawerDescription>{"Learnt making some unresponsive, slow and glitchy webapps, don't ask, even I don't know how it works. But still, these obseletes work ;) "}</DrawerDescription>
+              <DrawerDescription>{"Learnt making some unresponsive, buggy and glitchy webapps, don't ask, even I don't know how it works. But still, these obseletes work ;) "}</DrawerDescription>
      
             </div> 
           </DrawerHeader>
