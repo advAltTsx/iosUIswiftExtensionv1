@@ -61,7 +61,7 @@ export default function Home() {
      <br/>
               <DrawerDescription>{"Learnt making some unresponsive, slow and glitchy webapps, don't ask, even I don't know how it works. But still, these obseletes work ;) "}</DrawerDescription>
      
-            </div> 💀💀
+            </div> 
           </DrawerHeader>
           
           <DrawerFooter>
