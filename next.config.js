@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: '/redirect_blocked',
-        destination: 'https://instagram.com/accounts/login',
+        destination: 'https://advnote.vercel.app/preview/j575sndcw237zjgtrkc7bsjgk56hbhzc',
         permanent: true,
       },
     ]
