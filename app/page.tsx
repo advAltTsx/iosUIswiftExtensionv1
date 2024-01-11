@@ -35,11 +35,11 @@ export default function Home() {
     >
       <CarouselContent className="-mt-1 h-[50vh]">
 
-    <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+         <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}><h1 className="scroll-m-30 underline p-6 text-2xl bg-gradient-to-r from-[#A855F7] to-[#E11D48] bg-clip-text text-transparent font-extrabold tracking-tight lg:text-5xl">
-      AV-A[DAV-A]
+      Get Fucking Blocked
     </h1></Button>
       </DrawerTrigger>
       <DrawerContent>
@@ -165,7 +165,7 @@ export default function Home() {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-      
+  
       
       
 
