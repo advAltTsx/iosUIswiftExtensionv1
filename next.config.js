@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: '/redirect_blocked',
-        destination: 'https://advnote.vercel.app/preview/j575sndcw237zjgtrkc7bsjgk56hbhzc',
+        destination: 'https://advnote.vercel.app/preview/j574z73xntr9a9026cqm9qw1f56hcghm',
         permanent: true,
       },
     ]
