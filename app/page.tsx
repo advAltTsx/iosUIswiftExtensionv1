@@ -49,10 +49,10 @@ export default function Home() {
               <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
             </DrawerClose>
             </div>
-            <div className='flex flex-col justify-center text-center h-full my-10'>
-            
-              <DrawerTitle>{"Alright inspired by reels, shorts and now Spotiy Stories, my WebApp also turned into ADVEdges. Scroll like the other equivalents."}</DrawerTitle>
-            
+            <div className='flex flex-col px-6 justify-center text-center h-full my-10'>
+              <DrawerDescription>While others are scrolling Instagram Reels, and Youtube Shorts,</DrawerDescription>
+              <DrawerTitle>{"@adv.vapp is now ADVEdges!"}</DrawerTitle>
+            <DrawerDescription>Scroll till the end like the other equivalents.</DrawerDescription>
           </div>
           </DrawerHeader>
           
