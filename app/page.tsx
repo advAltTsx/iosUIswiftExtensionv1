@@ -71,7 +71,7 @@ export default function Home() {
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      SA-A, SK-A?
+      SA-A?
     </h1> <div className=' bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto'>New</div></div></Button>
       </DrawerTrigger>
       <DrawerContent>
@@ -86,7 +86,7 @@ export default function Home() {
             <DrawerDescription>
                 <span className="opacity-50"> jeez yes, your classmate Abhyudaya Deep Verma!</span></DrawerDescription>
             <br/>
-              <DrawerDescription>{"I know y'all wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
+              <DrawerDescription>{"I know you wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
       
           </div>
           </DrawerHeader>
@@ -106,7 +106,7 @@ export default function Home() {
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       SA-B?
-    </h1> <div className=' bg-gradient-to-r from-violet-600 to-red-600 text-white font-bold py-2 px-4 rounded-2xl h-auto'>Updated</div></div></Button>
+    </h1> <div className=' bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto'>Updated</div></div></Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
