@@ -117,9 +117,7 @@ export default function Home() {
               <br/>
               <DrawerTitle>{"So, how was your exam?"}</DrawerTitle>
   <br/>
-          <DrawerDescription>{"Well, meet SA-A and their friends!"}</DrawerDescription>
-              <DrawerDescription>
-                <span className="opacity-50"> (you two have the same surname, and they have your {"classmate's"} first name, co-incidence on {"it's"} peak) </span></DrawerDescription>
+          <DrawerDescription>{"I know you ignited it, topper!"}</DrawerDescription>
               
           </div>
           </DrawerHeader>
