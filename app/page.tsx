@@ -113,7 +113,7 @@ export default function Home() {
           <DrawerHeader >
             
             <div className='flex flex-col justify-center text-center h-full my-10'>
-            <DrawerDescription>13/1/24, 11:32</DrawerDescription>
+            <DrawerDescription>13/1/24</DrawerDescription>
               <br/>
               <DrawerTitle>{"So, meet SA-A and their friends!"}</DrawerTitle>
   
