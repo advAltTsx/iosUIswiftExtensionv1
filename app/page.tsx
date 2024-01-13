@@ -69,7 +69,7 @@ export default function Home() {
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       SA-B?
-    </h1> <div className=' bg-gradient-to-r from-violet-600 to-red-600 text-white py-2 px-4 rounded-2xl h-auto'>Updated</div></div></Button>
+    </h1> <div className=' bg-gradient-to-r from-violet-600 to-red-600 text-white font-bold py-2 px-4 rounded-2xl h-auto'>Updated</div></div></Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
