@@ -52,7 +52,8 @@ export default function Home() {
             <div className='flex flex-col px-4 justify-center text-center h-full my-10'>
               <DrawerDescription>While others are scrolling Instagram Reels, and Youtube Shorts,</DrawerDescription>
               <br/>
-              <DrawerDescription>I decided not to open these apps ever again, and {"that's why,"}</DrawerDescription>
+              <DrawerDescription>I decided not to open these apps ever again, </DrawerDescription>
+              <DrawerDescription>and {"that's why,"}</DrawerDescription>
               <DrawerTitle>{"@adv.vapp is now ADVEdges!"}</DrawerTitle>
               <br/>
             <DrawerDescription>Scroll till the end like the other equivalents.</DrawerDescription>
