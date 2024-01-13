@@ -115,9 +115,10 @@ export default function Home() {
             <div className='flex flex-col justify-center text-center h-full my-10'>
             <DrawerDescription>13/1/24</DrawerDescription>
               <br/>
-              <DrawerTitle>{"So, meet SA-A and their friends!"}</DrawerTitle>
-  
-            <DrawerDescription>
+              <DrawerTitle>{"So, how was your exam?"}</DrawerTitle>
+  <br/>
+          <DrawerDescription>{"Well, meet SA-A and their friends!"}</DrawerDescription>
+              <DrawerDescription>
                 <span className="opacity-50"> (you two have the same surname, and they have your {"classmate's"} first name, co-incidence on {"it's"} peak) </span></DrawerDescription>
               
           </div>
