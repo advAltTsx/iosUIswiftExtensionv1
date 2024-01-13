@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Abhyudaya",
+  title: "ADVSnaps",
   description: "@advwastaken",
   icons: {
     icon: '/logo.jpg'
