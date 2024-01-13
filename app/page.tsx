@@ -39,7 +39,7 @@ export default function Home() {
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       ADVEdges?
-    </h1> </Button>
+    </h1> </div></Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
@@ -49,7 +49,7 @@ export default function Home() {
               <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
             </DrawerClose>
             </div>
-            <div className='flex flex-col px-6 justify-center text-center h-full my-10'>
+            <div className='flex flex-col px-4 justify-center text-center h-full my-10'>
               <DrawerDescription>While others are scrolling Instagram Reels, and Youtube Shorts,</DrawerDescription>
               <DrawerTitle>{"@adv.vapp is now ADVEdges!"}</DrawerTitle>
             <DrawerDescription>Scroll till the end like the other equivalents.</DrawerDescription>
