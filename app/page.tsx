@@ -54,8 +54,9 @@ export default function Home() {
               <br/>
               <DrawerDescription>I decided not to open these apps ever again, </DrawerDescription>
               <DrawerDescription>and {"that's why,"}</DrawerDescription>
+             <br/>
               <DrawerTitle>{"@adv.vapp is now ADVEdges!"}</DrawerTitle>
-              <br/>
+              
             <DrawerDescription>Scroll till the end like the other equivalents.</DrawerDescription>
           </div>
           </DrawerHeader>
