@@ -118,7 +118,7 @@ export default function Home() {
               <DrawerTitle>{"So, meet SA-A and their friends!"}</DrawerTitle>
   
             <DrawerDescription>
-                <span className="opacity-50"> (you two have the same surname, and they have your {"classmate's"} first name, co-incidence on the peak) </span></DrawerDescription>
+                <span className="opacity-50"> (you two have the same surname, and they have your {"classmate's"} first name, co-incidence on {"it's"} peak) </span></DrawerDescription>
               
           </div>
           </DrawerHeader>
