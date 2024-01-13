@@ -44,11 +44,7 @@ export default function Home() {
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
           <DrawerHeader >
-            <div className='h-auto w-full flex items-center justify-start'>
-            <DrawerClose asChild>
-              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
-            </DrawerClose>
-            </div>
+            
             <div className='flex flex-col px-4 justify-center text-center h-full my-10'>
               <DrawerDescription>While others are scrolling Instagram Reels, and Youtube Shorts,</DrawerDescription>
               <br/>
@@ -79,11 +75,7 @@ export default function Home() {
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
           <DrawerHeader >
-            <div className='h-auto w-full flex items-center justify-start'>
-            <DrawerClose asChild>
-              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
-            </DrawerClose>
-            </div>
+            
             <div className='flex flex-col justify-center text-center h-full my-10'>
             <DrawerDescription>13/1/24, 11:32</DrawerDescription>
               <br/>
@@ -114,11 +106,7 @@ export default function Home() {
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
           <DrawerHeader >
-            <div className='h-auto w-full flex items-center justify-start'>
-            <DrawerClose asChild>
-              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
-            </DrawerClose>
-            </div>
+            
             <div className='flex flex-col justify-center text-center h-full my-10'>
            
               <DrawerTitle>Alright, so a boom of Publised notes!</DrawerTitle>
