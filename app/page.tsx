@@ -83,7 +83,7 @@ export default function Home() {
              <br/>
               <DrawerDescription>I pray to God, you score 65+/70 <span className="opacity-50"> {"(also for Sugar)"} </span></DrawerDescription>
             <br/>
-              <DrawerDescription>The way you smiled, {"being honest, I haven't been treated this good since years. All I saw was betrayal, ignorance and arrogance."}</DrawerDescription>
+              <DrawerDescription>The way you smiled, {"being honest, I haven't been treated this good since years. All I been treated with, was ignorance and arrogance."}</DrawerDescription>
             
           </div>
           </DrawerHeader>
