@@ -84,7 +84,7 @@ export default function Home() {
               <DrawerTitle>{"Hi there!"}</DrawerTitle>
   
             <DrawerDescription>
-                <span className="opacity-50"> jeez yes, your classmate Abhyudaya Deep Verma!</span></DrawerDescription>
+                <span className="opacity-50"> jeez yes, your classmate Abhyudaya!</span></DrawerDescription>
             <br/>
               <DrawerDescription>{"I know you wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
    <br/>
