@@ -34,6 +34,36 @@ export default function Home() {
       className="w-full"
     >
       <CarouselContent className="-mt-1 h-[100vh] w-full">
+        <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+      ADVEdges?
+    </h1> <div className=' bg-gradient-to-r from-violet-600 to-red-600 text-white py-2 px-4 rounded-2xl h-auto'>Updated</div></div></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto">
+          <DrawerHeader >
+            <div className='h-auto w-full flex items-center justify-start'>
+            <DrawerClose asChild>
+              <Button variant="ghost"><h1 className=' text-blue-600'>Close</h1></Button>
+            </DrawerClose>
+            </div>
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+            
+              <DrawerTitle>{"Alright inspired by reels, shorts and now Spotiy Stories, my WebApp also turned into ADVEdges. Scroll like the other equivalents."}</DrawerTitle>
+            
+          </div>
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
+
+          </CarouselItem>
           <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
@@ -55,8 +85,6 @@ export default function Home() {
               <DrawerTitle>{"Meanwhile you are writing your exam,"}</DrawerTitle>
              <br/>
               <DrawerDescription>I pray to God, you score 65+/70 {"(also for Sugar)"}</DrawerDescription>
-            <br/>
-              <DrawerDescription>{"Alright inspired by reels, shorts and now Spotiy Stories, my WebApp also turned into ADVSnaps. Scroll like the other equivalents."}</DrawerDescription>
             
           </div>
           </DrawerHeader>
