@@ -86,7 +86,7 @@ export default function Home() {
               <br/>
               <DrawerTitle>{"Meanwhile you are writing your exam,"}</DrawerTitle>
              <br/>
-              <DrawerDescription>I pray to God, you score 65+/70 {"(also for Sugar)"}</DrawerDescription>
+              <DrawerDescription>I pray to God, you score 65+/70 <span className="opacity-50"> {"(also for Sugar)"} </span></DrawerDescription>
             
           </div>
           </DrawerHeader>
