@@ -88,7 +88,7 @@ export default function Home() {
             <br/>
               <DrawerDescription>{"I know you wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
    <br/>
-              <DrawerDescription>Besides, due to my lack of experience of talking with, I mean, non-boys, I couls sometimes be very casual and treat you like my friend and tease you or sometimes be somewhat little rude, no matter the case you gotta be forgvme either way.</DrawerDescription>
+              <DrawerDescription>Besides, due to my lack of experience of talking with, I mean, non-boys, I could sometimes be very casual, treat you like my friend and tease you or sometimes be somewhat little rude, no matter the case you gotta be forgiving either way.</DrawerDescription>
           </div>
           </DrawerHeader>
           
