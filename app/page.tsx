@@ -87,7 +87,8 @@ export default function Home() {
                 <span className="opacity-50"> jeez yes, your classmate Abhyudaya Deep Verma!</span></DrawerDescription>
             <br/>
               <DrawerDescription>{"I know you wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
-      
+   <br/>
+              <DrawerDescription>Besides, due to my lack of experience of talking with, I mean, non-boys, I couls sometimes be very casual and treat you like my friend and tease you or sometimes be somewhat little rude, no matter the case you gotta be forgvme either way.</DrawerDescription>
           </div>
           </DrawerHeader>
           
