@@ -65,6 +65,42 @@ export default function Home() {
     </Drawer>
 
           </CarouselItem>
+
+
+<CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            <Drawer shouldScaleBackground>
+      <DrawerTrigger asChild>
+        <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+      SA-A, SK-A?
+    </h1> <div className=' bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto'>New</div></div></Button>
+      </DrawerTrigger>
+      <DrawerContent>
+        <div className="min-h-[70vh] h-auto">
+          <DrawerHeader >
+            
+            <div className='flex flex-col justify-center text-center h-full my-10'>
+            <DrawerDescription>13/01/24</DrawerDescription>
+              <br/>
+              <DrawerTitle>{"Hi there!"}</DrawerTitle>
+  
+            <DrawerDescription>
+                <span className="opacity-50"> jeez yes, your classmate Abhyudaya Deep Verma!</span></DrawerDescription>
+            <br/>
+              <DrawerDescription>{"I know y'all wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
+      
+          </div>
+          </DrawerHeader>
+          
+          <DrawerFooter>
+            
+          </DrawerFooter>
+        </div>
+      </DrawerContent>
+    </Drawer>
+
+          </CarouselItem>
+        
+        
           <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
             <Drawer shouldScaleBackground>
       <DrawerTrigger asChild>
@@ -79,12 +115,11 @@ export default function Home() {
             <div className='flex flex-col justify-center text-center h-full my-10'>
             <DrawerDescription>13/1/24, 11:32</DrawerDescription>
               <br/>
-              <DrawerTitle>{"Meanwhile you are writing your exam,"}</DrawerTitle>
-             <br/>
-              <DrawerDescription>I pray to God, you score 65+/70 <span className="opacity-50"> {"(also for Sugar)"} </span></DrawerDescription>
-            <br/>
-              <DrawerDescription>The way you smiled, {"being honest, I haven't been treated this good since years. All I been treated with, was ignorance and arrogance."}</DrawerDescription>
-            
+              <DrawerTitle>{"So, meet SA-A and their friends!"}</DrawerTitle>
+  
+            <DrawerDescription>
+                <span className="opacity-50"> (you two have the same surname, and they have your {"classmate's"} first name, co-incidence on the peak) </span></DrawerDescription>
+              
           </div>
           </DrawerHeader>
           
