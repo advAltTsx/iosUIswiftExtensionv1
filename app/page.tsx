@@ -70,8 +70,10 @@ export default function Home() {
                           <CommandInput placeholder="Search Suggestions and Features..." />
                           <CommandList>
                             <CommandGroup heading="Suggestions">
+                              <div className="text-left">
                               <CommandItem>Page stuck? Scroll down like an ordinary Instagram reel or Youtube Short.</CommandItem>
                               <CommandItem>Want to close the pop-up? Drag it down or click on the background.</CommandItem>
+                                </div>
                             </CommandGroup>
 
                             <CommandSeparator />
