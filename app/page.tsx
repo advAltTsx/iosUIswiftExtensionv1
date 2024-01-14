@@ -126,7 +126,7 @@ export default function Home() {
                           }
                         </DrawerDescription>
                         <br/>
-                        <DrawerDescription>{"This is not a DDoS either, it's too small for it. It looks like some people are interested in knowing our conversations, SA-B, apart from our classmates."}</DrawerDescription>
+                        <DrawerDescription>{"This is not a DDoS either, it's too small. Looks like some people are interested in knowing our conversations, SA-B, apart from our classmates."}</DrawerDescription>
                          <br/>
                         <DrawerDescription>
                           {
