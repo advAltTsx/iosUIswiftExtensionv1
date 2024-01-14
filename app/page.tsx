@@ -104,7 +104,7 @@ export default function Home() {
                         SA-B?
                       </h1>{" "}
                       <div className=" bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        Update 2
+                        Update 3
                       </div>
                     </div>
                   </Button>
