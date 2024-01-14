@@ -122,11 +122,13 @@ export default function Home() {
                         <br />
                         <DrawerDescription>
                           {
-                            "So, you've got to do 3000 push-ups, not modified one, actual one, keep practising"
+                            "So, you've got to do 1K actual push-ups, and with a 50kg weighted vest put on? Good idea?"
                           }
                         </DrawerDescription>
                         <br/>
-                        <DrawerDescription>Edit: Gently speaking, you guys are spending way too much time staring at my app, {"don't do it. Practicals, Lab manuals?"}</DrawerDescription>
+                        <DrawerDescription>{'"Humko samjh ke kya rakha hai?", 💀'}</DrawerDescription>
+                        
+                        
                       </div>
                     </DrawerHeader>
 
