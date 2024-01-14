@@ -130,7 +130,7 @@ export default function Home() {
                          <br/>
                         <DrawerDescription>
                           {
-                            "No worries, this time we meet IRL, I'll hand over a unique code of 8 letters, for our private conversation, and the path goes like"
+                            "No worries, this time we meet IRL, I'll hand over a unique code of 8 letters (share it with your classmates only), for our private conversation, and the path goes like"
                           }
                         </DrawerDescription>
                         
