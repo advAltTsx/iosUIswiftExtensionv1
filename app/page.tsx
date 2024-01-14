@@ -44,9 +44,9 @@ export default function Home() {
         >
           <CarouselContent className="-mt-1 h-[100vh]  bg-right-bottom lg:h-[70vh] w-full">
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
-              <Drawer  shouldScaleBackground>
+              <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
-                  <Button variant={"link"}>
+                  <Button className="p-4" variant={"link"}>
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
@@ -102,10 +102,7 @@ export default function Home() {
                   <Button variant={"link"}>
                     <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
                       ADVNote
-                    </h1>{" "}
-                    <div className=" bg-gray-300 border border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        Updated
-                      </div>
+                    </h1>
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-black">
@@ -127,6 +124,7 @@ export default function Home() {
                 </DrawerContent>
               </Drawer>
             </CarouselItem>
+            
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
