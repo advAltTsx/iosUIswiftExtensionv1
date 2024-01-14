@@ -42,7 +42,7 @@ export default function Home() {
           orientation="vertical"
           className="w-full"
         >
-          <CarouselContent className="-mt-1 h-[70vh] lg:h-[70vh] w-full">
+          <CarouselContent className="-mt-1 h-[100vh] lg:h-[70vh] w-full">
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
