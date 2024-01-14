@@ -124,6 +124,8 @@ export default function Home() {
                             "So, you've got to do 3000 push-ups, not modified one, actual one, keep practising, stay strong 💪"
                           }
                         </DrawerDescription>
+                        <br/>
+                        <DrawerDescription>Gently speaking, you guys are spending way too much time staring at my app, {"don't do it. Practicals, Lab manuals?"}</DrawerDescription>
                       </div>
                     </DrawerHeader>
 
