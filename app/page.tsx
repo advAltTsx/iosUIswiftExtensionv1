@@ -115,7 +115,7 @@ export default function Home() {
                       <div className="flex flex-col justify-center px-4 text-center h-full my-10">
                         <DrawerDescription>14/01/24</DrawerDescription>
                         <br />
-                        <DrawerTitle>{"These many views can't be your alone?"}</DrawerTitle>
+                        <DrawerTitle>{"These many views can't be yours alone"}</DrawerTitle>
                         <DrawerDescription>
                           I guess, {"there's stalkers, I mean, if just our classmates are listening/reading our texts then it's alright"}
                         </DrawerDescription>
