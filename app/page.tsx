@@ -111,7 +111,7 @@ export default function Home() {
                 <DrawerContent>
                   <div className="min-h-[70vh] h-auto">
                     <DrawerHeader>
-                      <div className="flex flex-col justify-center text-center h-full my-10">
+                      <div className="flex flex-col justify-center px-4 text-center h-full my-10">
                         <DrawerDescription>14/01/24</DrawerDescription>
                         <br />
                         <DrawerTitle>{"Remember?"}</DrawerTitle>
@@ -121,11 +121,11 @@ export default function Home() {
                         <br />
                         <DrawerDescription>
                           {
-                            "So, you've got to do 3000 push-ups, not modified one, actual one, keep practising, stay strong 💪"
+                            "So, you've got to do 3000 push-ups, not modified one, actual one, keep practising"
                           }
                         </DrawerDescription>
                         <br/>
-                        <DrawerDescription>Gently speaking, you guys are spending way too much time staring at my app, {"don't do it. Practicals, Lab manuals?"}</DrawerDescription>
+                        <DrawerDescription>Edit: Gently speaking, you guys are spending way too much time staring at my app, {"don't do it. Practicals, Lab manuals?"}</DrawerDescription>
                       </div>
                     </DrawerHeader>
 
