@@ -71,7 +71,7 @@ export default function Home() {
                           <CommandList>
                             <CommandGroup heading="Suggestions">
                               <div className="text-left">
-                              <CommandItem>Page stuck? Scroll down like an ordinary Instagram reel or Youtube Short.</CommandItem>
+                              <CommandItem>Page stuck? Scroll down like an ordinary Instagram Reel or Youtube Short.</CommandItem>
                               <CommandItem>Want to close the pop-up? Drag it down or click on the background.</CommandItem>
                                 </div>
                             </CommandGroup>
