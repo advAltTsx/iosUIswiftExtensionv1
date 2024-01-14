@@ -117,7 +117,7 @@ export default function Home() {
                         <br />
                         <DrawerTitle>{"These many views can't be your alone?"}</DrawerTitle>
                         <DrawerDescription>
-                          I guess, {"there's stalkers, I mean, if just your classmates are listening/reading our texts then it's alright"}
+                          I guess, {"there's stalkers, I mean, if just our classmates are listening/reading our texts then it's alright"}
                         </DrawerDescription>
                         <br />
                         <DrawerDescription>
@@ -126,7 +126,7 @@ export default function Home() {
                           }
                         </DrawerDescription>
                         <br/>
-                        <DrawerDescription>{"This is not a DDoS either, it's too small for it. It looks like some people are interested in knowing our conversations, SA-B, apart from your classmates."}</DrawerDescription>
+                        <DrawerDescription>{"This is not a DDoS either, it's too small for it. It looks like some people are interested in knowing our conversations, SA-B, apart from our classmates."}</DrawerDescription>
                          <br/>
                         <DrawerDescription>
                           {
