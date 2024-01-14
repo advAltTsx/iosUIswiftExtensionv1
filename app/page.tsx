@@ -58,15 +58,15 @@ export default function Home() {
                     </div>
                   </Button>
                 </DrawerTrigger>
-                <DrawerContent className="bg-black">
-                  <div className="min-h-[70vh] h-auto bg-black">
+                <DrawerContent className="bg-gradient-to-b from-purple-600 via-purple-700 to-black/80">
+                  <div className="min-h-[70vh] h-auto">
                     <DrawerHeader>
                       <div className="flex flex-col overflow-y-clip overflow-x-clip justify-center text-center h-full my-10">
                         <DrawerTitle className="font-bold">
                           {"ADVEdges"}
                         </DrawerTitle>
                         <br />
-                        <Command className="bg-black">
+                        <Command className="bg-black border-2 border-purple-500">
                           <CommandInput placeholder="Search Suggestions and Features..." />
                           <CommandList>
                             <CommandGroup heading="Suggestions">
@@ -105,10 +105,10 @@ export default function Home() {
                     </h1>
                   </Button>
                 </DrawerTrigger>
-                <DrawerContent className="bg-black">
+                <DrawerContent className="bg-gradient-to-b from-red-700 to-black">
                   <div className="min-h-[70vh] h-auto">
                     <DrawerHeader>
-                      <div className="flex flex-col justify-center text-center h-full my-10">
+                      <div className="flex flex-col justify-center bg-black rounded-2xl border-2 border-red-500 text-center h-full my-10">
                         <DrawerTitle>
                           Alright, so a boom of Publised notes!
                         </DrawerTitle>
