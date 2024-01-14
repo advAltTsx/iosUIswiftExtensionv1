@@ -122,7 +122,7 @@ export default function Home() {
                         <br />
                         <DrawerDescription>
                           {
-                            "but, the repeated views count upto 3,851 in last 24 hours, I hope you didn't leaked my webApp."
+                            "but, the repeated views count upto 4,851 in last 24 hours, I hope you didn't leaked my webApp."
                           }
                         </DrawerDescription>
                         <br/>
