@@ -119,7 +119,7 @@ export default function Home() {
                           but still
                         </DrawerDescription>
                         <br />
-                        <DrawerDescription>{"I ain't seeing none any of your posts although it hurts"}</DrawerDescription>
+                        <DrawerDescription>{"I ain't seeing none of your posts although it hurts"}</DrawerDescription>
                         <DrawerTitle>{"It's completely useless, if you're trying."}</DrawerTitle>
                         <DrawerDescription>{" So, how are you?"}</DrawerDescription>
                         
