@@ -102,7 +102,10 @@ export default function Home() {
                   <Button variant={"link"}>
                     <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
                       ADVNote
-                    </h1>
+                    </h1>{" "}
+                    <div className=" bg-gray-300 border border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
+                        Updated
+                      </div>
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-black">
