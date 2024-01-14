@@ -42,7 +42,7 @@ export default function Home() {
           orientation="vertical"
           className="w-full"
         >
-          <CarouselContent className="-mt-1 h-[100vh] w-full">
+          <CarouselContent className="-mt-1 h-[70vh] lg:h-[70vh] w-full">
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
@@ -93,6 +93,44 @@ export default function Home() {
               </Drawer>
             </CarouselItem>
 
+            <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+              <Drawer shouldScaleBackground>
+                <DrawerTrigger asChild>
+                  <Button variant={"link"}>
+                    {" "}
+                    <div className="flex items-center">
+                      <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
+                        Sugar?
+                      </h1>{" "}
+                      <div className=" bg-gradient-to-r from-blue-500 to-green-500  text-white font-bold py-2 px-4 rounded-2xl h-auto">
+                        Updated
+                      </div>
+                    </div>
+                  </Button>
+                </DrawerTrigger>
+                <DrawerContent>
+                  <div className="min-h-[70vh] h-auto">
+                    <DrawerHeader>
+                      <div className="flex flex-col justify-center px-4 text-center h-full my-10">
+                        <DrawerDescription>14/01/24</DrawerDescription>
+                        <br />
+                        <DrawerTitle>{"I really don't know whether you're here or not"}</DrawerTitle>
+                        <DrawerDescription>
+                          but still
+                        </DrawerDescription>
+                        <br />
+                        <DrawerDescription>{"I ain't seeing none any of your posts although it hurts"}</DrawerDescription>
+                        <DrawerTitle>{"It's completely useless, if you're trying."}</DrawerTitle>
+                        <DrawerDescription>{" So, how are you?"}</DrawerDescription>
+                        
+                         </div>
+                    </DrawerHeader>
+
+                    <DrawerFooter></DrawerFooter>
+                  </div>
+                </DrawerContent>
+              </Drawer>
+            </CarouselItem>
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
