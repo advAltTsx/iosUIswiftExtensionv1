@@ -122,7 +122,7 @@ export default function Home() {
                         <br />
                         <DrawerDescription>
                           {
-                            "So, you've got to do 1K actual push-ups, and with a 50kg weighted vest put on? Good idea?"
+                            "So, you've got to do 3K actual push-ups, and with a 50kg weighted vest put on? Good idea?"
                           }
                         </DrawerDescription>
                         <br/>
