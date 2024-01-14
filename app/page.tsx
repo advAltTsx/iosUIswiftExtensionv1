@@ -53,8 +53,7 @@ export default function Home() {
              <br/>
               <DrawerTitle>{"@adv.vapp is now ADVEdges!"}</DrawerTitle>
               
-            <DrawerDescription>Scroll till the end like the other equivalents.</DrawerDescription>
-          </div>
+                     </div>
           </DrawerHeader>
           
           <DrawerFooter>
@@ -67,39 +66,7 @@ export default function Home() {
           </CarouselItem>
 
 
-<CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
-            <Drawer shouldScaleBackground>
-      <DrawerTrigger asChild>
-        <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-      SA-A?
-    </h1> <div className=' bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto'>New</div></div></Button>
-      </DrawerTrigger>
-      <DrawerContent>
-        <div className="min-h-[70vh] h-auto">
-          <DrawerHeader >
-            
-            <div className='flex flex-col justify-center text-center h-full my-10'>
-            <DrawerDescription>13/01/24</DrawerDescription>
-              <br/>
-              <DrawerTitle>{"Hi there!"}</DrawerTitle>
-  
-            <DrawerDescription>
-                <span className="opacity-50"> jeez yes, your classmate Abhyudaya!</span></DrawerDescription>
-            <br/>
-              <DrawerDescription>{"I know you wouldn't be believing it's mine, but it's true!"}</DrawerDescription>
-   <br/>
-              <DrawerDescription>Besides, due to my lack of experience of talking with, I mean, non-boys, I could sometimes be very casual, treat you like my friend and tease you or sometimes be somewhat little rude, no matter the case you gotta be forgiving either way.</DrawerDescription>
-          </div>
-          </DrawerHeader>
-          
-          <DrawerFooter>
-            
-          </DrawerFooter>
-        </div>
-      </DrawerContent>
-    </Drawer>
 
-          </CarouselItem>
         
         
           <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
@@ -107,18 +74,19 @@ export default function Home() {
       <DrawerTrigger asChild>
         <Button variant={'link'}> <div className='flex items-center'><h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
       SA-B?
-    </h1> <div className=' bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto'>Updated</div></div></Button>
+    </h1> <div className=' bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto'>Update 2</div></div></Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="min-h-[70vh] h-auto">
           <DrawerHeader >
             
             <div className='flex flex-col justify-center text-center h-full my-10'>
-            <DrawerDescription>13/1/24</DrawerDescription>
+            <DrawerDescription>14/01/24</DrawerDescription>
               <br/>
-              <DrawerTitle>{"So, how was your exam?"}</DrawerTitle>
+              <DrawerTitle>{"Remember?"}</DrawerTitle>
+              <DrawerDescription>I told you to be a boxer.</DrawerDescription>
   <br/>
-          <DrawerDescription>{"I know you ignited it, topper!"}</DrawerDescription>
+          <DrawerDescription>{"So, you've got to do 3000 push-ups, not modified one, actual one, keep practising, stay strong 💪"}</DrawerDescription>
               
           </div>
           </DrawerHeader>
