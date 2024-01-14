@@ -115,19 +115,26 @@ export default function Home() {
                       <div className="flex flex-col justify-center px-4 text-center h-full my-10">
                         <DrawerDescription>14/01/24</DrawerDescription>
                         <br />
-                        <DrawerTitle>{"Remember?"}</DrawerTitle>
+                        <DrawerTitle>{"These many views can't be your alone?"}</DrawerTitle>
                         <DrawerDescription>
-                          I told you to be a boxer.
+                          I guess, {"there's stalkers, I mean, if just your classmates are listening/reading our texts then it's alright"}
                         </DrawerDescription>
                         <br />
                         <DrawerDescription>
                           {
-                            "So, you've got to do 3K actual push-ups, and with a 50kg weighted vest put on? Good idea?"
+                            "but, the repeated views count upto 3,851 in last 24 hours, I hope you didn't leaked my webApp."
                           }
                         </DrawerDescription>
                         <br/>
-                        <DrawerDescription>{'"Humko samjh ke kya rakha hai?", 💀'}</DrawerDescription>
+                        <DrawerDescription>{"This is not a DDoS either, it's too small for it. It looks like some people are interested in knowing our conversations, SA-B, apart from your classmates."}</DrawerDescription>
+                         <br/>
+                        <DrawerDescription>
+                          {
+                            "No worries, this time we meet IRL, I'll hand over a unique code of 8 letters, for our private conversation, and the path goes like"
+                          }
+                        </DrawerDescription>
                         
+                        <DrawerTitle>{"https://advwastaken.vercel.app/<random>/"}</DrawerTitle>
                         
                       </div>
                     </DrawerHeader>
