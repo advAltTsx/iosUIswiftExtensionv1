@@ -78,7 +78,7 @@ export default function Home() {
 
                             <CommandSeparator />
     <CommandGroup heading="Features">
-      <CommandItem>No iPhone? Use a iOS based UI app.</CommandItem>
+      <CommandItem>No iPhone? Use an iOS based UI app.</CommandItem>
       <CommandItem>Low end device? Use a blazing fast UI.</CommandItem>
     </CommandGroup>
                             
