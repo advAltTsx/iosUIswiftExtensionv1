@@ -52,6 +52,9 @@ export default function Home() {
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
                         ADVEdges
                       </h1>{" "}
+                      <div className=" bg-green-300 border border-green-500 text-green-950 font-bold py-2 px-4 rounded-2xl h-auto">
+                        Updated
+                      </div>
                     </div>
                   </Button>
                 </DrawerTrigger>
