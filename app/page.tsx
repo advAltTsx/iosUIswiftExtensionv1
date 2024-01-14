@@ -61,7 +61,7 @@ export default function Home() {
                 <DrawerContent>
                   <div className="min-h-[70vh] h-auto">
                     <DrawerHeader>
-                      <div className="flex flex-col justify-center text-center h-full my-10">
+                      <div className="flex flex-col overflow-y-clip overflow-x-clip justify-center text-center h-full my-10">
                         <DrawerTitle>
                           {"@adv.vapp is now ADVEdges!"}
                         </DrawerTitle>
