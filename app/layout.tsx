@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider"
+ 
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +23,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div vaul-drawer-wrapper="" className="bg-white min-h-[100vh]">
-          {children}
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
         </div>
       </body>
     </html>
