@@ -115,7 +115,7 @@ export default function Home() {
                 <DrawerTrigger asChild>
                   <Button variant={"link"}>
                     <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                      ADVNote
+                      SA-B?
                     </h1>
                   </Button>
                 </DrawerTrigger>
@@ -124,12 +124,16 @@ export default function Home() {
                     <DrawerHeader>
                       <div className="flex flex-col justify-center bg-black rounded-2xl border-2 border-red-500 text-center h-full my-10">
                         <DrawerTitle>
-                          Alright, so a boom of Publised notes!
+                          I still remember
                         </DrawerTitle>
-                        <br />
+                        
                         <DrawerDescription>
-                          Straight from 27 to 119 in 8 days.
+                          {"the first day I intentionally talked to a non-boy, for congratulating"}
                         </DrawerDescription>
+                        <br/>
+                        <DrawerDescription>{"It's coming to an end now, from being in the same class to smiling back at your smile, everything."}</DrawerDescription>
+                    
+                      <DrawerDescription>{"All the moments we passed, who knew they'll be memories"}</DrawerDescription>
                       </div>
                     </DrawerHeader>
 
