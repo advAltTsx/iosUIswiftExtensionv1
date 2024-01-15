@@ -59,7 +59,7 @@ export default function Home() {
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-black">
-                  <div className="h-auto py-12">
+                  <div className="h-auto py-32">
                     <DrawerHeader>
                       <DrawerTitle>Alright, I also love you</DrawerTitle>
                       <br/>
