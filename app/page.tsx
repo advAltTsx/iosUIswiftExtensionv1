@@ -53,7 +53,7 @@ export default function Home() {
                         A D V
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        Originals
+                        {"#Originals"}
                       </div>
                     </div>
                   </Button>
