@@ -50,10 +50,10 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        Hates
+                        Sugar
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        {"frkn hates"}
+                        {"fake as hell"}
                       </div>
                     </div>
                   </Button>
