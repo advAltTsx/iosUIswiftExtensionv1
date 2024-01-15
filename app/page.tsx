@@ -123,7 +123,7 @@ export default function Home() {
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-gradient-to-b from-[#00FFFF] to-black">
-                  <div className="min-h-[70vh] h-auto">
+                  <div className="h-auto py-12">
                     <DrawerHeader>
                       <div className="flex flex-col justify-center bg-black px-6 rounded-2xl border border-white/60 text-center h-full my-10">
                         <DrawerTitle>
