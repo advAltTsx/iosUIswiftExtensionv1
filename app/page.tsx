@@ -110,41 +110,7 @@ export default function Home() {
             
             
 
-             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
-              <Drawer shouldScaleBackground>
-                <DrawerTrigger asChild>
-                  <Button variant={"link"}>
-                    <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                      Alice? 
-                    </h1>
-                    <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        Virtuals
-                      </div>
-                  </Button>
-                </DrawerTrigger>
-                <DrawerContent className="bg-gradient-to-b from-[#00FFFF] to-black">
-                  <div className="h-auto py-12">
-                    <DrawerHeader>
-                      <div className="flex flex-col justify-center bg-black px-6 rounded-2xl border border-white/60 text-center h-full my-10">
-                        <DrawerTitle>
-                          You think that way?
-                        </DrawerTitle>
-                        <br/>
-                        <DrawerDescription>
-                          {"Here, have a look at IRLS-sided @adv-vapp"}
-                        </DrawerDescription>
-                        <br/>
-                        <DrawerDescription>{"Why're you behind Sugar all the time, afterall?"}</DrawerDescription>
-                    
-                      <DrawerDescription>{"As promised, I've put it on IRLS, what's the next?"}</DrawerDescription>
-                      </div>
-                    </DrawerHeader>
-
-                    <DrawerFooter></DrawerFooter>
-                  </div>
-                </DrawerContent>
-              </Drawer>
-            </CarouselItem> 
+             
             
           </CarouselContent>
           <CarouselPrevious />
