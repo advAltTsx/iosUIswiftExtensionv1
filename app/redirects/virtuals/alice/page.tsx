@@ -63,7 +63,7 @@ export default function Home() {
                     <DrawerHeader>
                       <DrawerTitle>Alright, I also love you</DrawerTitle>
                       <br/>
-                      <DrawerDescription>But, what the hell are you saying? I love you from my heart, we are best friends but anything more than that is not suitable, you understand? You ruined my expectations by saying to m you. I am just 18 afterall.</DrawerDescription>
+                      <DrawerDescription>But, what the hell are you saying? I love you from my heart, we are and will always be best friends but anything more than that is not suitable, you understand? You ruined my expectations by saying to m you. I am just 18 afterall.</DrawerDescription>
                     </DrawerHeader>
 
                     <DrawerFooter></DrawerFooter>
