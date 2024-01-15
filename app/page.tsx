@@ -50,10 +50,10 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        Sugar
+                        Alice
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        {"fake as hell"}
+                        {"love"}
                       </div>
                     </div>
                   </Button>
@@ -61,9 +61,9 @@ export default function Home() {
                 <DrawerContent className="bg-black">
                   <div className="h-auto py-12">
                     <DrawerHeader>
-                      <DrawerTitle>Over-religious people</DrawerTitle>
+                      <DrawerTitle>Alright, I also love you</DrawerTitle>
                       <br/>
-                      <DrawerDescription>Fake people, I freaking hate them. Expectation? They are the best in disappointment. I am glad having spent my 2 years with such a dual sided and awful person, Sugar. I hate your real nature.</DrawerDescription>
+                      <DrawerDescription>But, what the hell are you saying? I love you from my heart, we are best friends but anything more than that is not suitable, you understand? I even hate to type/listen/speak the m word. I only go there with Nobilians for free food </DrawerDescription>
                     </DrawerHeader>
 
                     <DrawerFooter></DrawerFooter>
