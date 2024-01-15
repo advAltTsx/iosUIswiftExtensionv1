@@ -63,7 +63,7 @@ export default function Home() {
                     <DrawerHeader>
                       <DrawerTitle>Over-religious people</DrawerTitle>
                       <br/>
-                      <DrawerDescription>Fake people, I freaking hate them. Expectation? They are the best in disappointment. I am glad having spent my 2 years with such a dual sided and awful person, Sugar. I hate you.</DrawerDescription>
+                      <DrawerDescription>Fake people, I freaking hate them. Expectation? They are the best in disappointment. I am glad having spent my 2 years with such a dual sided and awful person, Sugar. I hate your real nature.</DrawerDescription>
                     </DrawerHeader>
 
                     <DrawerFooter></DrawerFooter>
