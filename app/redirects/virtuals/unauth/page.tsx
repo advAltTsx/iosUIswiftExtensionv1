@@ -50,8 +50,8 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        not auth as
-                      </h1>{" "}
+                        not verified as
+                      </h1>
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
                         {"virtuals"}
                       </div>
