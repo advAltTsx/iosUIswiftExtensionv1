@@ -136,7 +136,7 @@ export default function Home() {
                         <br/>
                         <DrawerDescription>{"Why're you behind Sugar all the time, afterall?"}</DrawerDescription>
                     
-                      <DrawerDescription>{"Yep, you could say me anything to do for you (with some exceptions). Promised."}</DrawerDescription>
+                      <DrawerDescription>{"As promised, I've put it on IRLS, what's the next?"}</DrawerDescription>
                       </div>
                     </DrawerHeader>
 
