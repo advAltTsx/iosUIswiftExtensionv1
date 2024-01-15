@@ -110,13 +110,16 @@ export default function Home() {
             
             
 
-            {/* <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
                   <Button variant={"link"}>
                     <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                      SA-B?
+                      Alice? 
                     </h1>
+                    <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
+                        Virtuals
+                      </div>
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-gradient-to-b from-red-700 to-black">
@@ -124,16 +127,16 @@ export default function Home() {
                     <DrawerHeader>
                       <div className="flex flex-col justify-center bg-black rounded-2xl border-2 border-red-500 text-center h-full my-10">
                         <DrawerTitle>
-                          I still remember
+                          You think that way?
                         </DrawerTitle>
-                        
+                        <br/>
                         <DrawerDescription>
-                          {"the first day I intentionally talked to a non-boy, for congratulating"}
+                          {"Here, have a look at IRLS-sided @adv-vapp"}
                         </DrawerDescription>
                         <br/>
-                        <DrawerDescription>{"It's coming to an end now, from being in the same class to smiling back at your smile, everything."}</DrawerDescription>
+                        <DrawerDescription>{"Why're you behind Sugar all the time, afterall?"}</DrawerDescription>
                     
-                      <DrawerDescription>{"All the moments we passed, who knew they'll be memories"}</DrawerDescription>
+                      <DrawerDescription>{"Yep, you could say me anything to do for you (with some exceptions). Promised."}</DrawerDescription>
                       </div>
                     </DrawerHeader>
 
@@ -141,7 +144,7 @@ export default function Home() {
                   </div>
                 </DrawerContent>
               </Drawer>
-            </CarouselItem> */}
+            </CarouselItem> 
             
           </CarouselContent>
           <CarouselPrevious />
