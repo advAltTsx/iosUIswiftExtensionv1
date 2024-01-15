@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen bg-black bg-[url('/bg.png')] bg-auto flex-col items-center justify-center overflow-y-clip overflow-x-clip">
-        <Carousel
+        {/*    <Carousel
           opts={{
             align: "start",
           }}
@@ -81,7 +81,7 @@ export default function Home() {
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
-        </Carousel>
+        </Carousel> */}
       </main>
     </>
   );
