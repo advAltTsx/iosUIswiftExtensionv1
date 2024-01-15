@@ -125,7 +125,7 @@ export default function Home() {
                 <DrawerContent className="bg-gradient-to-b from-red-700 to-black">
                   <div className="min-h-[70vh] h-auto">
                     <DrawerHeader>
-                      <div className="flex flex-col justify-center bg-black rounded-2xl border-2 border-red-500 text-center h-full my-10">
+                      <div className="flex flex-col justify-center bg-black px-6 rounded-2xl border border-red-500 text-center h-full my-10">
                         <DrawerTitle>
                           You think that way?
                         </DrawerTitle>
