@@ -70,7 +70,7 @@ export default function Home() {
                         Original
                       </div>
                           </div>
-                          <div className="h-auto w-96 flex items-center justify-center">
+                          <div className="h-auto w-4/5 flex items-center justify-center">
                             <img src="/techs.png" className="  w-full h-auto rounded-2xl border border-purple-800" alt="" />
                           </div>
                         </div>
