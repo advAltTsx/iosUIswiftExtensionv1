@@ -2,8 +2,11 @@
 const nextConfig = {
   async redirects() {
     return [
-      source: '/',
-      destination: '/redirects/virtuals/alice'
+      {
+        source: '/',
+        destination: '/redirects/virtuals/alice',
+        permanent: true,
+      },
     ]
   },
 }
