@@ -64,7 +64,7 @@ export default function Home() {
                       <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
                         <div className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
                           <div className="h-auto w-full  flex justify-start space-x-4 items-center">
-                          <img src="/avg.png" className=" h-16 w-16 rounded-full border-2 border-purple-500" alt="" />
+                          <img src="https://i.postimg.cc/1z2vcJb2/avg.png" className="pointer-events-none h-16 w-16 rounded-full border-2 border-purple-500" alt="" />
                           <h1 className="font-extrabold">Abhyudaya</h1>
                           <div className=" bg-gray-300 scale-75 border border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
                         Original
