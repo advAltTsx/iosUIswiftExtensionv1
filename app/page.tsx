@@ -70,8 +70,8 @@ export default function Home() {
                         Original
                       </div>
                           </div>
-                          <div className="h-auto w-4/5 flex items-center justify-center">
-                            <img src="/techs.png" className="  w-full h-auto rounded-2xl border border-purple-800" alt="" />
+                          <div className="h-auto w-full flex items-center justify-center">
+                            <img src="/techs.png" className="w-4/5 h-auto rounded-2xl border border-purple-800" alt="" />
                           </div>
                         </div>
                       <div className="flex scale-75 flex-col overflow-y-clip overflow-x-clip justify-center text-center h-full my-1">
