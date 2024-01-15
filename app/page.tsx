@@ -50,7 +50,7 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        A B H Y U D A Y A
+                        A D V
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
                         Originals
@@ -64,7 +64,7 @@ export default function Home() {
                       <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
                         <div className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
                           <div className="h-auto w-full  flex justify-start space-x-4 items-center">
-                          <img src="/avg.jpg" className=" h-[4.5rem] w-16 rounded-3xl border-2 border-purple-500" alt="" />
+                          <img src="/logo.jpg" className=" h-16 w-16 rounded-full border-2 border-purple-500" alt="" />
                           <h1 className="font-extrabold">Abhyudaya</h1>
                           <div className=" bg-gray-300 scale-75 border border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
                         Original
