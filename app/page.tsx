@@ -50,23 +50,36 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        ADVEdges
+                        A B H Y U D A Y A
                       </h1>{" "}
-                      <div className=" bg-gray-300 border border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        Updated
+                      <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
+                        Originals
                       </div>
                     </div>
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-gradient-to-b from-purple-600 via-purple-700 to-black/80">
-                  <div className="min-h-[70vh] h-auto">
+                  <div className="h-auto py-12">
                     <DrawerHeader>
-                      <div className="flex flex-col overflow-y-clip overflow-x-clip justify-center text-center h-full my-10">
-                        <DrawerTitle className="font-bold">
+                      <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
+                        <div className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
+                          <div className="h-auto w-full  flex justify-start space-x-4 items-center">
+                          <img src="/avg.jpg" className=" h-[4.5rem] w-16 rounded-3xl border-2 border-purple-500" alt="" />
+                          <h1 className="font-extrabold">Abhyudaya</h1>
+                          <div className=" bg-gray-300 scale-75 border border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
+                        Original
+                      </div>
+                          </div>
+                          <div className="h-auto w-full flex items-center justify-center">
+                            <img src="/techs.png" className="  w-80 h-auto rounded-2xl border border-purple-800" alt="" />
+                          </div>
+                        </div>
+                      <div className="flex scale-75 flex-col overflow-y-clip overflow-x-clip justify-center text-center h-full my-1">
+                        {/* <DrawerTitle className="font-bold">
                           {"ADVEdges"}
                         </DrawerTitle>
                         <br />
-                        <Command className="bg-black border-2 border-purple-500">
+                        <Command className="bg-black border border-white/60 rounded-2xl">
                           <CommandInput placeholder="Search Suggestions and Features..." />
                           <CommandList>
                             <CommandGroup heading="Suggestions">
@@ -83,7 +96,8 @@ export default function Home() {
     </CommandGroup>
                             
                           </CommandList>
-                        </Command>
+                        </Command> */}
+                      </div>
                       </div>
                     </DrawerHeader>
 
@@ -96,7 +110,7 @@ export default function Home() {
             
             
 
-            <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+            {/* <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
                   <Button variant={"link"}>
@@ -123,7 +137,7 @@ export default function Home() {
                   </div>
                 </DrawerContent>
               </Drawer>
-            </CarouselItem>
+            </CarouselItem> */}
             
           </CarouselContent>
           <CarouselPrevious />
