@@ -50,19 +50,30 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        A D V
+                        Hates
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        {"#Originals"}
+                        {"frkn hates"}
                       </div>
                     </div>
                   </Button>
                 </DrawerTrigger>
-                <DrawerContent className="bg-gradient-to-b from-purple-600 via-purple-700 to-black/80">
+                <DrawerContent className="bg-black">
                   <div className="h-auto py-12">
                     <DrawerHeader>
-                      <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
-                        <div className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
+                      <DrawerTitle>Over-religious people</DrawerTitle>
+                      <br/>
+                      <DrawerDescription>Fake people, I freaking hate them. Expectation? They are the best in disappointment. I am glad having spent my 2 years with such a dual sided and awful person, Sugar. I hate you.</DrawerDescription>
+                    </DrawerHeader>
+
+                    <DrawerFooter></DrawerFooter>
+                  </div>
+                </DrawerContent>
+              </Drawer>
+            </CarouselItem>
+
+            
+              {/*<div  className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
                           <div className="h-auto w-full  flex justify-between items-center">
                           <img src="https://i.postimg.cc/QxH531Cx/avg.webp" className="pointer-events-none h-16 w-16 rounded-full border-2 border-purple-500" alt="" />
                           <h1 className="font-extrabold">Abhyudaya</h1>
@@ -75,7 +86,7 @@ export default function Home() {
                           </div>
                         </div>
                       <div className="flex scale-75 flex-col overflow-y-clip overflow-x-clip justify-center text-center h-full my-1">
-                        {/* <DrawerTitle className="font-bold">
+                         <DrawerTitle className="font-bold">
                           {"ADVEdges"}
                         </DrawerTitle>
                         <br />
@@ -96,19 +107,9 @@ export default function Home() {
     </CommandGroup>
                             
                           </CommandList>
-                        </Command> */}
+                        </Command> 
                       </div>
-                      </div>
-                    </DrawerHeader>
-
-                    <DrawerFooter></DrawerFooter>
-                  </div>
-                </DrawerContent>
-              </Drawer>
-            </CarouselItem>
-
-            
-            
+                      </div>  *}
 
              
             
