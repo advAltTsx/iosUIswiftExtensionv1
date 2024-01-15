@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/redirects/virtuals/alice',
+        destination: '/redirects/virtuals/unauth',
         permanent: true,
       },
     ]
