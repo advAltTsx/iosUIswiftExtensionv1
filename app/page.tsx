@@ -171,7 +171,7 @@ export default function Home() {
                               </MenubarItem>
 
                               <MenubarItem>
-                                {"Now you know why you're SA-B, please understand"}
+                                {"Now you know why you're SA-B, understand"}
                               </MenubarItem>
                             </MenubarContent>
                           </MenubarMenu>
