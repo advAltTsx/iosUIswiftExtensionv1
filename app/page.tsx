@@ -53,7 +53,7 @@ export default function Home() {
                         SA-B
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        {"Updated 01/16/24"}
+                        {"Updated"}
                       </div>
                     </div>
                   </Button>
