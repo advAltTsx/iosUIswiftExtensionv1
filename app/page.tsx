@@ -116,6 +116,10 @@ export default function Home() {
                         {"1:31, home early"}
                       </DrawerDescription>
                       <br />
+                      <DrawerDescription>
+                        {"Rotate screen on mobile for sub-menus"}
+                      </DrawerDescription>
+                      <br />
 
                       <Menubar>
                         <div className="flex justify-around  w-full">
@@ -136,10 +140,7 @@ export default function Home() {
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarSub>
-                                <MenubarItem>
-                                Rotate screen on mobile for submenus
-                                <MenubarShortcut></MenubarShortcut>
-                              </MenubarItem>
+                               
                                 <MenubarSubTrigger>
                                   I talked to a {"<g> intentionally"}
                                 </MenubarSubTrigger>
