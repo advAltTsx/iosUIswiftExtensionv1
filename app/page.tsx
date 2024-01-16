@@ -61,7 +61,7 @@ export default function Home() {
                 <DrawerContent className="bg-black">
                   <div className="h-auto py-32">
                     <DrawerHeader>
-                     <DrawerDescription>1:31, I came home early</DrawerDescription>
+                     <DrawerDescription>{"1:31, I came home early"}</DrawerDescription>
                       <DrawerTitle>I know what {"you're"} thinking</DrawerTitle>
                       <br/>
                       <DrawerDescription>{"I don't know why but I had the urge to look cool infront of you by talking to a non-boy (they've talked to me earlier so I can talk back, it's a restriction from my parents that I cannot talk to a <g> first, neither type their name), still I thought of being cool but it backfired me 💀, they called me a `pagal`. Yes, infact, only 14 classified people from my class know about me excluding them." }</DrawerDescription>
