@@ -64,7 +64,7 @@ export default function Home() {
                      <DrawerDescription>{"1:31, I came home early"}</DrawerDescription>
                       <DrawerTitle>I know what {"you're"} thinking</DrawerTitle>
                       <br/>
-                      <DrawerDescription>{"I don't know why but I had the urge to look cool infront of you by talking to a non-boy (they've talked to me earlier so I can talk back, it's a restriction from my parents that I cannot talk to a <g> first, neither type their name), still I thought of being cool but it backfired me 💀, they called me a `pagal`. Yep, they don't know about me."}</DrawerDescription>
+                      <DrawerDescription>{"I don't know why but I had the urge to look cool infront of you by talking to a non-boy (they've talked to me earlier so I can talk back, it's a restriction from my parents that I cannot talk to a <g> first, neither type their name), still I thought of being cool but it backfired me 💀 Yep, they don't know about me."}</DrawerDescription>
                    <br/>
                       <DrawerDescription>{"I wanted to show I *can* talk to <g>s, but expectedly a nightmare happened infront of a respectable person 💀 in the most unexpected way, and further after regretting and blaming my own actions, I came back to talk but you were on the way to your classroom. First time I talked intentionally to a <g> irl, for someone else, and I have the worst luck ever"}</DrawerDescription>
                     </DrawerHeader>
