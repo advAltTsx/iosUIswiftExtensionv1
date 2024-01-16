@@ -113,7 +113,7 @@ export default function Home() {
                       </div>
                       </div> */}
                       <DrawerDescription>
-                        {"1:31, I came home early"}
+                        {"1:31, home early"}
                       </DrawerDescription>
                       <br />
 
