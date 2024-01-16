@@ -125,7 +125,7 @@ export default function Home() {
                             </MenubarTrigger>
                             <MenubarContent>
                               <MenubarItem>
-                                I know{" "}
+                                
                                 {
                                   "you'd be like 'why infront of me for the first time'"
                                 }{" "}
@@ -189,7 +189,7 @@ export default function Home() {
 
                               <MenubarItem>
                                 {
-                                  "Thought of coming back, but saw you on your way to classroom"
+                                  "came back, but you on your way to classroom"
                                 }
                               </MenubarItem>
                             </MenubarContent>
