@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: 'https://advnote.vercel.app/preview/j576evhv5a7kkbdye7ckbx2z1s6hk4g7',
+        destination: 'https://youtube.com/shorts/8uGFDnDuLoQ?si=FGpEB31-L2_DU8Q5',
         permanent: true,
       },
     ]
