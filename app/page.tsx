@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen bg-black bg-[url('/bg.png')] bg-auto flex-col items-center justify-center overflow-y-clip overflow-x-clip">
-        {/*    <Carousel
+          <Carousel
           opts={{
             align: "start",
           }}
@@ -50,10 +50,10 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        Alice
+                        SA-B
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        {"love"}
+                        {"Updated 01/16/24"}
                       </div>
                     </div>
                   </Button>
@@ -61,9 +61,12 @@ export default function Home() {
                 <DrawerContent className="bg-black">
                   <div className="h-auto py-32">
                     <DrawerHeader>
-                      <DrawerTitle>Alright, I also love you</DrawerTitle>
+                     <DrawerDescription>1:31, I came home early</DrawerDescription>
+                      <DrawerTitle>I know what {"you're"} thinking</DrawerTitle>
                       <br/>
-                      <DrawerDescription>But, what the hell are you saying? I love you from my heart, we are best friends but anything more than that is not suitable, you understand? You ruined my expectations by saying to m you. I am just 18 afterall.</DrawerDescription>
+                      <DrawerDescription>{"I don't know why but I had the urge to look cool infront of you by talking to a non-boy (they've talked to me earlier so I can talk back, it's a restriction from my parents that I cannot talk to a <g> first, neither type their name), still I thought of being cool but it backfired me 💀, they called me a `pagal`. Yes, infact, only 14 classified people from my class know about me excluding them." }</DrawerDescription>
+                   <br/>
+                      <DrawerDescription>{"I wanted to show I *can* talk to <g>s, but expectedly a nightmare happened infront of a respectable person 💀 in the most unexpected way, and further after regretting and blaming my own actions, I came back to talk but you were on the way to your classroom. First time I talked intentionally to a <g> irl, for someone else, and I have the worst luck ever"}</DrawerDescription>
                     </DrawerHeader>
 
                     <DrawerFooter></DrawerFooter>
