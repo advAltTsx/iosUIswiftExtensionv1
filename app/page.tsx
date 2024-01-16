@@ -136,6 +136,10 @@ export default function Home() {
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarSub>
+                                <MenubarItem>
+                                Rotate screen on mobile for submenus
+                                <MenubarShortcut></MenubarShortcut>
+                              </MenubarItem>
                                 <MenubarSubTrigger>
                                   I talked to a {"<g> intentionally"}
                                 </MenubarSubTrigger>
