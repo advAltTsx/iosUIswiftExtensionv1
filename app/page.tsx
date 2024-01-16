@@ -136,13 +136,13 @@ export default function Home() {
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarItem>
-                                I had a sudden urge to look cool infront of you{" "}
+                                Had a sudden urge to look cool infront of you{" "}
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarSub>
                                
                                 <MenubarSubTrigger>
-                                  I talked to a {"<g> intentionally"}
+                                  Talked to a {"<g> intentionally"}
                                 </MenubarSubTrigger>
                                 <MenubarSubContent>
                                   <MenubarItem> (first time)</MenubarItem>
