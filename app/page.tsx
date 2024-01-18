@@ -47,7 +47,10 @@ import {
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen bg-black bg-[url('/bg.png')] bg-auto flex-col items-center justify-center overflow-y-clip overflow-x-clip">
+      <main
+        className="flex min-h-screen bg-black 
+   bg-auto flex-col items-center justify-center overflow-y-clip overflow-x-clip"
+      >
         <Carousel
           opts={{
             align: "start",
@@ -63,16 +66,16 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        SA-B
+                        Yesterday
                       </h1>{" "}
                       <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        today
+                        WorstPerformer
                       </div>
                     </div>
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent className="bg-black">
-                  <div className="h-auto py-24">
+                  <div className="h-auto py-24 px-5">
                     <DrawerHeader>
                       {/* <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
                         <div className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
@@ -113,11 +116,10 @@ export default function Home() {
                       </div>
                       </div> */}
                       <DrawerDescription>
-                        {"1:31, home early"}
-                      </DrawerDescription>
-                      <br />
-                      <DrawerDescription>
-                        {"Rotate screen on mobile for sub-menus"}
+                        {"pata hai aap sabhi 'koi nhi' bologe"} <br />
+                        {
+                          "parr mereko pata hai ki main aisa kaam krdiya ki face dikhane ke layak nahi tha, bass chala jaana chahta tha kaise bhi"
+                        }
                       </DrawerDescription>
                       <br />
 
@@ -125,78 +127,77 @@ export default function Home() {
                         <div className="flex justify-around  w-full">
                           <MenubarMenu>
                             <MenubarTrigger>
-                              <span className="underline">Why, just why?</span>
-                            </MenubarTrigger>
-                            <MenubarContent>
-                              <MenubarItem>
-                                
-                                {
-                                  "you'd be like 'why infront of me for the first time'"
-                                }{" "}
-                                <MenubarShortcut></MenubarShortcut>
-                              </MenubarItem>
-                              <MenubarItem>
-                                Had a sudden urge to look cool infront of you{" "}
-                                <MenubarShortcut></MenubarShortcut>
-                              </MenubarItem>
-                              <MenubarSub>
-                               
-                                <MenubarSubTrigger>
-                                  Talked to a {"<g> intentionally"}
-                                </MenubarSubTrigger>
-                                <MenubarSubContent>
-                                  <MenubarItem> (first time)</MenubarItem>
-                                  <MenubarItem>(regretted)</MenubarItem>
-                                </MenubarSubContent>
-                              </MenubarSub>
-                            </MenubarContent>
-                          </MenubarMenu>
-                          <MenubarMenu>
-                            <MenubarTrigger>
-                              <span className="underline">
-                                My parents restriction
-                              </span>
+                              <span className="underline">Sugar</span>
                             </MenubarTrigger>
                             <MenubarContent>
                               <MenubarItem>
                                 {
-                                  "I can't talk to a <g> until they talk to me first"
+                                  "voh mereko bulane ka voh sabse worst way tha"
                                 }{" "}
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarItem>
                                 {
-                                  "I can't type a <g> name virtually until they say mine"
-                                }
+                                  "unit tests mein class 6-10 ki bacchi merese answer puchti hai toh"
+                                }{" "}
+                                <br />
+                                mera aawaz nahi aata
                               </MenubarItem>
 
                               <MenubarItem>
-                                {"Now you know why you're SA-B, understand"}
+                                {
+                                  "group of 2, 12th students + both ... , yeh toh durr ka baat tha"
+                                }
+                              </MenubarItem>
+                              <MenubarItem>
+                                {
+                                  "aapko eyes-wise indicate kiya tha apke bagal mein bhi koi hai"
+                                }{" "}
+                                <br />
+                                parr aap nahi samjhe toh main reply kardiya
+                              </MenubarItem>
+                              <MenubarItem>
+                                {
+                                  "joh line last bolke aarha tha, 'nahi nahi, main jaa rha hu'"
+                                }{" "}
+                                <br />
+                                vahi line vhir se repeat kr diya itna nervousness mein
                               </MenubarItem>
                             </MenubarContent>
                           </MenubarMenu>
                           <MenubarMenu>
                             <MenubarTrigger>
-                              <span className="underline">Futher</span>
+                              <span className="underline">SA-B</span>
                             </MenubarTrigger>
                             <MenubarContent>
                               <MenubarItem>
                                 {
-                                  "I just want to let you know I can talk to <g>s"
-                                }{" "}
+                                  "Main apko dekha tha mere samne aate"
+                                }{" "} <br />
+                                parr uss samay mental setback tha apna situation pe
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarItem>
                                 {
-                                  "After that, gigantic regret and blamed my own actions"
-                                }
+                                  "pushed + unbalanced + sand, "
+                                } <br />
+                                bass socch rha tha kaise bhi balance hojaye, <br /> ho bhi gya tha parr sand slip...
                               </MenubarItem>
 
                               <MenubarItem>
                                 {
-                                  "came back, but you on your way to classroom"
-                                }
-                              </MenubarItem>
+                                  "aur please mere utna samne nahi ayiyega"
+                                } <br />
+                                jab aap Gaurav se baat karrahe the <br />
+                                mere parents restriction mein yeh bhi hai ki <br />
+                                ki main koi ... ko physically touch nahi karsakta, <br />
+                                accidental touch as exception <br />
+                                </MenubarItem>
+                                <MenubarItem>
+                                toh main iss baar khud aajaunga <br /> 
+                                mereko khud aap acche lagte hai behaviour wise
+                              
+                                </MenubarItem>
                             </MenubarContent>
                           </MenubarMenu>
                         </div>
