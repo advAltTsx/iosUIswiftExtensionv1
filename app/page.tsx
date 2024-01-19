@@ -170,8 +170,7 @@ export default function Home() {
                                               <span>
                                                 {"Can't see the overview?"}{" "}
                                                 <span className="opacity-60">
-                                                  <br /> Resize the panel till
-                                                  the end.
+                                                  <br /> Resize the panel for adjustments.
                                                 </span>{" "}
                                               </span>
                                             </CommandItem>
@@ -184,7 +183,7 @@ export default function Home() {
                                             <span>
                                               {"No iPhone?"}{" "}
                                               <span className="opacity-60">
-                                                <br /> Use an iOS based UI app
+                                                <br /> Use an iOS UI based app
                                                 📱
                                               </span>{" "}
                                             </span>
