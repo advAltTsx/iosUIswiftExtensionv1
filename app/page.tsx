@@ -143,10 +143,7 @@ export default function Home() {
                                       <CommandList>
                                         <CommandGroup heading="Suggestions">
                                           <div className="text-left">
-                                            <CommandItem>
-                                              {" "}
-                                              <br />
-                                            </CommandItem>
+                                            
 
                                             <CommandItem>
                                               <span>
