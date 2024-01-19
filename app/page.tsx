@@ -192,7 +192,7 @@ export default function Home() {
                                 </MenubarItem>
                                 <MenubarItem>
                                 aur agar sacch bolu toh<br /> 
-                                mereko khud aap bohot hi jyada acche lagte hai behaviour-wise
+                                mereko aap bohot hi jyada acche lagte hai behaviour-wise 
                               
                                 </MenubarItem>
                             </MenubarContent>
