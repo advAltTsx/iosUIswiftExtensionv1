@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ADVEdges: 497K+",
+  title: "ADVEdges: 498K+",
   description: "@advwastaken",
   icons: {
     icon: '/logo.jpg'
