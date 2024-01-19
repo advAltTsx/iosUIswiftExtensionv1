@@ -65,9 +65,7 @@ export default function Home() {
                   <Button className="p-4" variant={"link"}>
                     {" "}
                     <div className="flex items-center">
-                      <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        
-                      </h1>{" "}
+                      
                       <div className=" bg-gray-300 border text-2xl  border-white text-gray-950 font-bold p-4 rounded-full h-auto">
                         🥲
                       </div>
