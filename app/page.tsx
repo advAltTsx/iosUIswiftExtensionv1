@@ -160,7 +160,7 @@ export default function Home() {
                                 {
                                   "vaise SA-B aapke dost hai"
                                 }{" "}
-                                <br />unko samjha dijie ki <br />
+                                <br />unko samjha dijie? ki <br />
                                 mera kya kya limitations aur restrictions hai
                               </MenubarItem>
                               
