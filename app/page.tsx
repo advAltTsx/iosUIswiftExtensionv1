@@ -180,7 +180,7 @@ export default function Home() {
 
                               <MenubarItem>
                                 {
-                                  "aur vhir pls utna jyada paas nahi ayiyega acchanak se"
+                                  "aur pls mere utna jyada paas nahi ayiyega acchanak se"
                                 } <br />
                                 jab aap Gaurav se baat karne aye the
                                 </MenubarItem>
@@ -192,7 +192,7 @@ export default function Home() {
                                 </MenubarItem>
                                 <MenubarItem>
                                 aur agar sacch bolu toh<br /> 
-                                mereko khud aap acche lagte hai behaviour wise
+                                mereko khud aap bohot hi jyada acche lagte hai behaviour-wise
                               
                                 </MenubarItem>
                             </MenubarContent>
