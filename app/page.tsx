@@ -190,7 +190,7 @@ export default function Home() {
                                 isiliye mereko piche hona padha tha
                                 </MenubarItem>
                                 <MenubarItem>
-                                toh main iss baar khud aajaunga aur agar sacch bolu toh<br /> 
+                                aur agar sacch bolu toh<br /> 
                                 mereko khud aap acche lagte hai behaviour wise
                               
                                 </MenubarItem>
