@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -44,12 +46,19 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 
+import {
+  ResizableHandle,
+  ResizablePanel,
+  ResizablePanelGroup,
+} from "@/components/ui/resizable"
+
+
 export default function Home() {
   return (
     <>
       <main
-        className="flex min-h-screen bg-gradient-to-bl from-yellow-300 to-emerald-500
-   bg-auto flex-col items-center justify-center overflow-y-clip overflow-x-clip"
+        className="flex min-h-screen bg-black bg-[url('/bg.gif')] bg-cover
+   flex-col items-center justify-center overflow-y-clip overflow-x-clip"
       >
         <Carousel
           opts={{
@@ -66,8 +75,8 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       
-                      <div className=" bg-gray-300 border text-2xl  border-white text-gray-950 font-bold p-4 rounded-full h-auto">
-                        🥲
+                      <div className=" bg-black border text-base font-extrabold text-white p-4 rounded-full h-auto">
+                        500K, {"yumpossible"}
                       </div>
                     </div>
                   </Button>
@@ -116,96 +125,57 @@ export default function Home() {
                       
                       
 
-                      <Menubar>
-                        <div className="flex justify-around  w-full">
+                      <Menubar className="h-16">
+                        <ResizablePanelGroup
+      direction="horizontal"
+      className="h-full w-full"
+    ><ResizablePanel defaultSize={50}>
+      <div className="flex h-full w-full items-center justify-center">
                           <MenubarMenu>
-                            <MenubarTrigger>
-                              <span className="underline">Sugar</span>
+                            <MenubarTrigger className="">
+                              <span className="underline text-md">Overview for new users</span>
                             </MenubarTrigger>
                             <MenubarContent>
                               <MenubarItem>
-                                {
-                                  "voh mereko bulane ka sabse daravana tarika tha"
-                                }{" "}
-                                <MenubarShortcut></MenubarShortcut>
-                              </MenubarItem>
-                              <MenubarItem>
-                                {
-                                  "aap sirf mere se baat karna chahte the"
-                                }{" "}
-                                <br />
-                                parr main darr gya tha <br />
-                                aap itna acchanak se bulaye toh <br />
-                                mera aawaz ko bhi kya hogya tha
-                              </MenubarItem>
+                              <Command className="bg-black">
+                          <div className="opacity-40">
+                          <CommandInput placeholder="Search Disabled" />
+                          </div>
+                          <CommandList>
+                            <CommandGroup heading="Suggestions">
+                              <div className="text-left">
+                              <CommandItem>Page stuck? Scroll down like an ordinary Instagram Reel or Youtube Short.</CommandItem>
+                              <CommandItem>Want to close the pop-up? Drag it down or click on the background.</CommandItem>
+                              <CommandItem>{"Can't see the overview? Resize the panel till the end and try again."}</CommandItem>
+                                </div>
+                            </CommandGroup>
 
-                              
-                              
-                              <MenubarItem>
-                                {
-                                  "joh line last bolke aarha tha, 'nahi nahi, main jaa rha hu'"
-                                }{" "}
-                                <br />
-                                vahi line vhir se repeat kr diya itna nervousness mein
-                              </MenubarItem>
-                              <MenubarItem>
-                                {
-                                  "aur, baat nahi karpane (aap aur SA-B) "
-                                }{" "}
-                                <br />aur galti karne ke regrets ke baad <br />
-                                bass chala jaane ka mann kiya
-                              </MenubarItem>
-
-                              <MenubarItem>
-                                {
-                                  "vaise SA-B aapke dost hai"
-                                }{" "}
-                                <br />unko samjha dijie? ki <br />
-                                mera kya kya limitations aur restrictions hai
-                              </MenubarItem>
+                            <CommandSeparator />
+    <CommandGroup heading="Features">
+      <CommandItem>No iPhone? Use an iOS based UI app 📱</CommandItem>
+      <CommandItem>Low end device? Use a blazing fast UI ⚡</CommandItem>
+      <CommandItem>No PC? Use resizable screens on the web 🖥️</CommandItem>
+    </CommandGroup>
+                            
+                          </CommandList>
+                        </Command>  </MenubarItem>
                               
                              
                               
                             </MenubarContent>
                           </MenubarMenu>
-                          <MenubarMenu>
-                            <MenubarTrigger>
-                              <span className="underline">SA-B</span>
-                            </MenubarTrigger>
-                            <MenubarContent>
-                              <MenubarItem>
-                                {
-                                  "phele bhi, main apko dekha tha mere samne aate"
-                                }{" "} <br />
-                                parr uss samay mental setback tha apna situation ka
-                                <MenubarShortcut></MenubarShortcut>
-                              </MenubarItem>
-                              <MenubarItem>
-                                {
-                                  "pushed + unbalanced + sand"
-                                } <br />
-                              </MenubarItem>
+                          </div>
+                          </ResizablePanel>
+                          <ResizableHandle withHandle />
+                          <ResizablePanel defaultSize={50}>
+      <div className="flex h-full w-full items-center justify-center">
 
-                              <MenubarItem>
-                                {
-                                  "aur pls mere utna jyada paas nahi ayiyega acchanak se"
-                                } <br />
-                                jab aap Gaurav se baat karne aye the
-                                </MenubarItem>
-                                <MenubarItem>
-                                mere parents ka restriction mein yeh bhi hai ki <br />
-                                ki main koi ... ko physically touch nahi karsakta, <br />
-                                accidental, medical touch exceptions hai<br />
-                                isiliye mereko piche hona padha tha
-                                </MenubarItem>
-                                <MenubarItem>
-                                aur agar sacch bolu toh<br /> 
-                                mereko khud aap bohot hi jyada acche lagte hai <br/> (behaviour-wise)
-                              
-                                </MenubarItem>
-                            </MenubarContent>
-                          </MenubarMenu>
-                        </div>
+     
+      <span className=" text-sm opacity-50">← Drag to resize for small devices.</span>
+                          </div>
+                          </ResizablePanel>
+                          </ResizablePanelGroup>
+                        
                       </Menubar>
                     </DrawerHeader>
 
