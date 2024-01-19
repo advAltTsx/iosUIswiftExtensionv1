@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -50,8 +50,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/resizable"
-
+} from "@/components/ui/resizable";
 
 export default function Home() {
   return (
@@ -74,7 +73,6 @@ export default function Home() {
                   <Button className="p-4" variant={"link"}>
                     {" "}
                     <div className="flex items-center">
-                      
                       <div className=" bg-black border text-base font-extrabold text-white p-4 rounded-full h-auto">
                         500K, {"yumpossible"}
                       </div>
@@ -122,60 +120,109 @@ export default function Home() {
                         </Command> 
                       </div>
                       </div> */}
-                      
-                      
 
                       <Menubar className="h-16">
                         <ResizablePanelGroup
-      direction="horizontal"
-      className="h-full w-full"
-    ><ResizablePanel defaultSize={50}>
-      <div className="flex h-full w-full items-center justify-center">
-                          <MenubarMenu>
-                            <MenubarTrigger className="">
-                              <span className="underline text-md">Overview for new users</span>
-                            </MenubarTrigger>
-                            <MenubarContent>
-                              <MenubarItem>
-                              <Command className="bg-black">
-                          <div className="opacity-40">
-                          <CommandInput placeholder="Search Disabled" />
-                          </div>
-                          <CommandList>
-                            <CommandGroup heading="Suggestions">
-                              <div className="text-left">
-                              <CommandItem>Page stuck? Scroll down like an ordinary Instagram Reel or Youtube Short.</CommandItem>
-                              <CommandItem>Want to close the pop-up? Drag it down or click on the background.</CommandItem>
-                              <CommandItem>{"Can't see the overview? Resize the panel till the end and try again."}</CommandItem>
-                                </div>
-                            </CommandGroup>
+                          direction="horizontal"
+                          className="h-full w-full"
+                        >
+                          <ResizablePanel defaultSize={50}>
+                            <div className="flex h-full w-full items-center justify-center">
+                              <MenubarMenu>
+                                <MenubarTrigger className="">
+                                  <span className="underline text-md">
+                                    Overview for new users
+                                  </span>
+                                </MenubarTrigger>
+                                <MenubarContent>
+                                  <MenubarItem>
+                                    <Command className="bg-black">
+                                      <div className="opacity-40">
+                                        <CommandInput placeholder="Search Disabled" />
+                                      </div>
+                                      <CommandList>
+                                        <CommandGroup heading="Suggestions">
+                                          <div className="text-left">
+                                            <CommandItem>
+                                              {" "}
+                                              <br />
+                                            </CommandItem>
 
-                            <CommandSeparator />
-    <CommandGroup heading="Features">
-      <CommandItem>No iPhone? Use an iOS based UI app 📱</CommandItem>
-      <CommandItem>Low end device? Use a blazing fast UI ⚡</CommandItem>
-      <CommandItem>No PC? Use resizable screens on the web 🖥️</CommandItem>
-    </CommandGroup>
-                            
-                          </CommandList>
-                        </Command>  </MenubarItem>
-                              
-                             
-                              
-                            </MenubarContent>
-                          </MenubarMenu>
-                          </div>
+                                            <CommandItem>
+                                              <span>
+                                                Page stuck?{" "}
+                                                <span className="opacity-60">
+                                                  <br /> Scroll down like
+                                                  Youtube Shorts.
+                                                </span>{" "}
+                                              </span>
+                                            </CommandItem>
+                                            <CommandItem>
+                                              <span>
+                                                Want to close the pop-up?{" "}
+                                                <span className="opacity-60">
+                                                  <br /> Drag it down/click on
+                                                  the background.
+                                                </span>{" "}
+                                              </span>
+                                            </CommandItem>
+                                            <CommandItem>
+                                              <span>
+                                                {"Can't see the overview?"}{" "}
+                                                <span className="opacity-60">
+                                                  <br /> Resize the panel till
+                                                  the end.
+                                                </span>{" "}
+                                              </span>
+                                            </CommandItem>
+                                          </div>
+                                        </CommandGroup>
+
+                                        <CommandSeparator />
+                                        <CommandGroup heading="Features">
+                                          <CommandItem>
+                                            <span>
+                                              {"No iPhone?"}{" "}
+                                              <span className="opacity-60">
+                                                <br /> Use an iOS based UI app
+                                                📱
+                                              </span>{" "}
+                                            </span>
+                                          </CommandItem>
+                                          <CommandItem>
+                                            <span>
+                                              {"Low end device?"}{" "}
+                                              <span className="opacity-60">
+                                                <br /> Use a blazing fast UI ⚡
+                                              </span>{" "}
+                                            </span>
+                                          </CommandItem>
+                                          <CommandItem>
+                                            <span>
+                                              {"No PC?"}{" "}
+                                              <span className="opacity-60">
+                                                <br /> Use resizable screens on
+                                                the web 🖥️
+                                              </span>{" "}
+                                            </span>
+                                          </CommandItem>
+                                        </CommandGroup>
+                                      </CommandList>
+                                    </Command>{" "}
+                                  </MenubarItem>
+                                </MenubarContent>
+                              </MenubarMenu>
+                            </div>
                           </ResizablePanel>
                           <ResizableHandle withHandle />
                           <ResizablePanel defaultSize={50}>
-      <div className="flex h-full w-full items-center justify-center">
-
-     
-      <span className=" text-sm opacity-50">← Drag to resize for small devices.</span>
-                          </div>
+                            <div className="flex h-full w-full items-center justify-center">
+                              <span className=" text-sm opacity-50">
+                                ← Drag to resize for small devices.
+                              </span>
+                            </div>
                           </ResizablePanel>
-                          </ResizablePanelGroup>
-                        
+                        </ResizablePanelGroup>
                       </Menubar>
                     </DrawerHeader>
 
