@@ -166,7 +166,7 @@ export default function Home() {
                             <MenubarContent>
                               <MenubarItem>
                                 {
-                                  "phele, main apko dekha tha mere samne aate"
+                                  "phele bhi, main apko dekha tha mere samne aate"
                                 }{" "} <br />
                                 parr uss samay mental setback tha apna situation ka
                                 <MenubarShortcut></MenubarShortcut>
