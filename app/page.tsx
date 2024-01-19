@@ -131,9 +131,10 @@ export default function Home() {
                               </MenubarItem>
                               <MenubarItem>
                                 {
-                                  "aap sirf mere se baat karna chahte the parr main darr gya tha"
+                                  "aap sirf mere se baat karna chahte the"
                                 }{" "}
                                 <br />
+                                parr main darr gya tha <br />
                                 aap itna acchanak se bulaye toh <br />
                                 mera aawaz ko bhi kya hogya tha
                               </MenubarItem>
