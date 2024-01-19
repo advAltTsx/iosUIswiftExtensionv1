@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <>
       <main
-        className="flex min-h-screen bg-black 
+        className="flex min-h-screen bg-gradient-to-bl from-yellow-300 to-emerald-500
    bg-auto flex-col items-center justify-center overflow-y-clip overflow-x-clip"
       >
         <Carousel
@@ -66,10 +66,10 @@ export default function Home() {
                     {" "}
                     <div className="flex items-center">
                       <h1 className="scroll-m-30 underline p-6 text-2xl font-extrabold tracking-tight lg:text-5xl">
-                        Yesterday
+                        
                       </h1>{" "}
-                      <div className=" bg-gray-300 border  border-white text-gray-950 font-bold py-2 px-4 rounded-2xl h-auto">
-                        WorstPerformer
+                      <div className=" bg-gray-300 border text-2xl  border-white text-gray-950 font-bold p-4 rounded-full h-auto">
+                        🥲
                       </div>
                     </div>
                   </Button>
@@ -115,13 +115,8 @@ export default function Home() {
                         </Command> 
                       </div>
                       </div> */}
-                      <DrawerDescription>
-                        {"pata hai aap sabhi 'koi nhi' bologe"} <br />
-                        {
-                          "parr mereko pata hai ki main aisa kaam krdiya ki face dikhane ke layak nahi tha, bass chala jaana chahta tha kaise bhi"
-                        }
-                      </DrawerDescription>
-                      <br />
+                      
+                      
 
                       <Menubar>
                         <div className="flex justify-around  w-full">
@@ -132,30 +127,21 @@ export default function Home() {
                             <MenubarContent>
                               <MenubarItem>
                                 {
-                                  "voh mereko bulane ka voh sabse worst way tha"
+                                  "voh mereko bulane ka sabse daravana tarika tha"
                                 }{" "}
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarItem>
                                 {
-                                  "unit tests mein class 6-10 ki bacchi merese answer puchti hai toh"
+                                  "aap sirf mere se baat karna chahte the parr main darr gya tha"
                                 }{" "}
                                 <br />
-                                mera aawaz nahi aata
+                                aap itna acchanak se bulaye toh <br />
+                                mera aawaz ko bhi kya hogya tha
                               </MenubarItem>
 
-                              <MenubarItem>
-                                {
-                                  "group of 2, 12th students + both ... , yeh toh durr ka baat tha"
-                                }
-                              </MenubarItem>
-                              <MenubarItem>
-                                {
-                                  "aapko eyes-wise indicate kiya tha apke bagal mein bhi koi hai"
-                                }{" "}
-                                <br />
-                                parr aap nahi samjhe toh main reply kardiya
-                              </MenubarItem>
+                              
+                              
                               <MenubarItem>
                                 {
                                   "joh line last bolke aarha tha, 'nahi nahi, main jaa rha hu'"
@@ -163,6 +149,16 @@ export default function Home() {
                                 <br />
                                 vahi line vhir se repeat kr diya itna nervousness mein
                               </MenubarItem>
+                              <MenubarItem>
+                                {
+                                  "aur, baat nahi karpane (aap aur SA-B) "
+                                }{" "}
+                                <br />aur galti karne ke regrets ke baad <br />
+                                bass chala jaane ka mann kiya
+                              </MenubarItem>
+                              
+                             
+                              
                             </MenubarContent>
                           </MenubarMenu>
                           <MenubarMenu>
@@ -172,29 +168,31 @@ export default function Home() {
                             <MenubarContent>
                               <MenubarItem>
                                 {
-                                  "Main apko dekha tha mere samne aate"
+                                  "phele, main apko dekha tha mere samne aate"
                                 }{" "} <br />
-                                parr uss samay mental setback tha apna situation pe
+                                parr uss samay mental setback tha apna situation ka
                                 <MenubarShortcut></MenubarShortcut>
                               </MenubarItem>
                               <MenubarItem>
                                 {
-                                  "pushed + unbalanced + sand, "
+                                  "pushed + unbalanced + sand"
                                 } <br />
-                                bass socch rha tha kaise bhi balance hojaye, <br /> ho bhi gya tha parr sand slip...
                               </MenubarItem>
 
                               <MenubarItem>
                                 {
-                                  "aur please mere utna samne nahi ayiyega"
+                                  "aur vhir pls utna jyada samne nahi ayiyega acchanak se"
                                 } <br />
-                                jab aap Gaurav se baat karrahe the <br />
-                                mere parents restriction mein yeh bhi hai ki <br />
-                                ki main koi ... ko physically touch nahi karsakta, <br />
-                                accidental touch as exception <br />
+                                jab aap Gaurav se baat karne aye the
                                 </MenubarItem>
                                 <MenubarItem>
-                                toh main iss baar khud aajaunga <br /> 
+                                mere parents ka restriction mein yeh bhi hai ki <br />
+                                ki main koi ... ko physically touch nahi karsakta, <br />
+                                accidental, medical touch exceptions hai<br />
+                                isiliye mereko piche hona padha tha
+                                </MenubarItem>
+                                <MenubarItem>
+                                toh main iss baar khud aajaunga aur agar sacch bolu toh<br /> 
                                 mereko khud aap acche lagte hai behaviour wise
                               
                                 </MenubarItem>
