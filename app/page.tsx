@@ -179,7 +179,7 @@ export default function Home() {
 
                               <MenubarItem>
                                 {
-                                  "aur vhir pls utna jyada samne nahi ayiyega acchanak se"
+                                  "aur vhir pls utna jyada paas nahi ayiyega acchanak se"
                                 } <br />
                                 jab aap Gaurav se baat karne aye the
                                 </MenubarItem>
