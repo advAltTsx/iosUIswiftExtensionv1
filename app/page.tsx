@@ -68,28 +68,7 @@ export default function Home() {
         >
           <CarouselContent className="-mt-1 h-[100vh]  bg-right-bottom lg:h-[70vh] w-full">
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
-              <Drawer shouldScaleBackground>
-                <DrawerTrigger asChild>
-                  <Button className="p-4" variant={"link"}>
-                    {" "}
-                    <div className="flex items-center">
-                      <div className=" bg-black border text-base font-extrabold text-white p-4 px-8 rounded-full h-auto">
-                        Sugar
-                      </div>
-                    </div>
-                  </Button>
-                </DrawerTrigger>
-                <DrawerContent className="bg-black">
-                  <div className="h-auto py-24 px-5">
-                    <DrawerHeader>
-                      <DrawerTitle>{"Today at 20:30"}</DrawerTitle>
-                      <DrawerDescription>Have phone by your side.</DrawerDescription>
-                    </DrawerHeader>
-
-                  </div>
-                </DrawerContent>
-              </Drawer>
-            </CarouselItem>
+            
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
