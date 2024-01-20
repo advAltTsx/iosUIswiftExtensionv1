@@ -226,7 +226,7 @@ export default function Home() {
                           <ResizablePanel defaultSize={50}>
                             <div className="flex h-full w-full items-center justify-center">
                               <span className=" text-sm opacity-50">
-                                ← Drag to resize for small devices.
+                                ← Drag to resize for smaller devices.
                               </span>
                             </div>
                           </ResizablePanel>
