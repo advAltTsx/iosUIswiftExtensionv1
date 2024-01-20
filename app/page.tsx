@@ -211,7 +211,7 @@ export default function Home() {
                                               {"Sana Samreen"}{" "}
                                               <span className="opacity-60">
                                                 <br /> Resizable Screens
-                                                🫂
+                                                
                                               </span>{" "}
                                             </span>
                                           </CommandItem>
