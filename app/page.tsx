@@ -67,7 +67,6 @@ export default function Home() {
           className="w-full "
         >
           <CarouselContent className="-mt-1 h-[100vh]  bg-right-bottom lg:h-[70vh] w-full">
-            <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
             
             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
