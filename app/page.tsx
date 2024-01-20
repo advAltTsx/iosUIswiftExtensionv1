@@ -73,6 +73,29 @@ export default function Home() {
                   <Button className="p-4" variant={"link"}>
                     {" "}
                     <div className="flex items-center">
+                      <div className=" bg-black border text-base font-extrabold text-white p-4 px-8 rounded-full h-auto">
+                        Sugar
+                      </div>
+                    </div>
+                  </Button>
+                </DrawerTrigger>
+                <DrawerContent className="bg-black">
+                  <div className="h-auto py-24 px-5">
+                    <DrawerHeader>
+                      <DrawerTitle>{"Today at 20:30"}</DrawerTitle>
+                      <DrawerDescription>Have phone by your side.</DrawerDescription>
+                    </DrawerHeader>
+
+                  </div>
+                </DrawerContent>
+              </Drawer>
+            </CarouselItem>
+            <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+              <Drawer shouldScaleBackground>
+                <DrawerTrigger asChild>
+                  <Button className="p-4" variant={"link"}>
+                    {" "}
+                    <div className="flex items-center">
                       <div className=" bg-black border text-base font-extrabold text-white p-4 rounded-full h-auto">
                         500K, {"yumpossible"}
                       </div>
@@ -143,8 +166,6 @@ export default function Home() {
                                       <CommandList>
                                         <CommandGroup heading="Suggestions">
                                           <div className="text-left">
-                                            
-
                                             <CommandItem>
                                               <span>
                                                 Page stuck?{" "}
@@ -167,7 +188,8 @@ export default function Home() {
                                               <span>
                                                 {"Can't see the overview?"}{" "}
                                                 <span className="opacity-60">
-                                                  <br /> Resize the panel for adjustments.
+                                                  <br /> Resize the panel for
+                                                  adjustments.
                                                 </span>{" "}
                                               </span>
                                             </CommandItem>
@@ -204,19 +226,17 @@ export default function Home() {
                                           </CommandItem>
                                         </CommandGroup>
 
-                                                  <CommandSeparator />
-                                        <CommandGroup heading="Contributors">
+                                        <CommandSeparator />
+                                        <CommandGroup heading="Github Contributors">
                                           <CommandItem>
                                             <span>
                                               {"Sana Samreen"}{" "}
                                               <span className="opacity-60">
-                                                <br /> Resizable Screens
-                                                
+                                                <br /> UI and UX
                                               </span>{" "}
                                             </span>
                                           </CommandItem>
-                                          </CommandGroup>
-                                        
+                                        </CommandGroup>
                                       </CommandList>
                                     </Command>{" "}
                                   </MenubarItem>
