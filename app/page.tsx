@@ -203,6 +203,20 @@ export default function Home() {
                                             </span>
                                           </CommandItem>
                                         </CommandGroup>
+
+                                                  <CommandSeparator />
+                                        <CommandGroup heading="Contributors">
+                                          <CommandItem>
+                                            <span>
+                                              {"Sana Samreen"}{" "}
+                                              <span className="opacity-60">
+                                                <br /> Resizable Screens
+                                                🫂
+                                              </span>{" "}
+                                            </span>
+                                          </CommandItem>
+                                          </CommandGroup>
+                                        
                                       </CommandList>
                                     </Command>{" "}
                                   </MenubarItem>
