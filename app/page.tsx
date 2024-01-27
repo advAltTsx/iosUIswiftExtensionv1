@@ -59,7 +59,7 @@ export default function Home() {
         className="flex min-h-screen bg-black bg-[url('/bg.gif')] bg-cover
    flex-col items-center justify-center overflow-y-clip overflow-x-clip"
       >
-        <Carousel
+        {/*   <Carousel
           opts={{
             align: "start",
           }}
@@ -83,7 +83,7 @@ export default function Home() {
                 <DrawerContent className="bg-black">
                   <div className="h-auto py-24 px-5">
                     <DrawerHeader>
-                      {/* <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
+                      <div className="h-auto w-full bg-black rounded-3xl border-2 border-purple-400 flex flex-col">
                         <div className="h-auto w-full p-5 px-12 flex flex-col space-y-6">
                           <div className="h-auto w-full  flex justify-start space-x-4 items-center">
                           <img src="/avg.jpg" className=" h-[4.5rem] w-16 rounded-3xl border-2 border-purple-500" alt="" />
@@ -120,7 +120,7 @@ export default function Home() {
                           </CommandList>
                         </Command> 
                       </div>
-                      </div> */}
+                      </div> 
 
                       <Menubar className="h-16">
                         <ResizablePanelGroup
@@ -240,7 +240,7 @@ export default function Home() {
               </Drawer>
             </CarouselItem>
 
-            {/* <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
+             <CarouselItem className="pt-1 md:basis-1/2 flex items-center justify-center text-center">
               <Drawer shouldScaleBackground>
                 <DrawerTrigger asChild>
                   <Button variant={"link"}>
@@ -267,11 +267,11 @@ export default function Home() {
                   </div>
                 </DrawerContent>
               </Drawer>
-            </CarouselItem> */}
+            </CarouselItem> 
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
-        </Carousel>
+        </Carousel> */}
       </main>
     </>
   );
